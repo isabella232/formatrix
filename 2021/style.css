@@ -1,0 +1,36 @@
+body {
+background-color: rgb(0, 100, 0); color: rgb(200, 200, 250);
+ alink:#ee0000; link:#0000ee; vlink:#551a8b;
+}
+div{
+max-width:100%
+}
+table#tablo{
+text-align: left; width: 90%; margin-left: auto; margin-right: auto;
+border:0px solid; cellpadding:5; cellspacing:5;
+}
+table#wartable{
+text-align: left; width: 90%; margin-left: auto; margin-right: auto;
+border:1px solid; cellpadding:5; cellspacing:5;
+}
+table#wartableS{
+text-align: left; width: 90%; margin-left: auto; margin-right: auto;
+border:1px solid; cellpadding:5; cellspacing:5;
+}
+td{border:1px solid;}
+
+#div4{position:absolute; left:0%;width:30%;}
+#div9{position:absolute; left:30%;width:30%;}
+#div16{position:absolute; left:60%;width:30%;}
+
+td{text-align:center;}
+
+v{
+text-decoration: overline;
+}
+up{
+text-transform: uppercase;
+}
+mig{
+text-decoration: blink;
+}

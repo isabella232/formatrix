@@ -1,0 +1,815 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 20.12.2 ] */
+/* [wxMaxima: title   start ]
+formatrix
+
+   [wxMaxima: title   end   ] */
+
+
+/* [wxMaxima: comment start ]
+R,S,P,PS,N,RN,O,C,OC,
+F,A,FA,AC,AS,ACAS,FAC,
+RR,SS,PP,PSPS,NN,RNRN,OO,CC,OCOC,
+FF,AA,FAFA,ACAC,ASAS,ACASACAS,FACFAC,
+
+NU,XU,XR,o,f,r,ac,as,Af,Rr,v
+NUNU,XUXU,XRXR,oo,ff,rr,acac,asas,AfAf,RrRr,vv
+
+linear values:
+R - radius of circle outside polygon, one for all.
+S - side of polygon
+P - perimeter of polygon
+PS - perimeter minus side
+N - normal (perpendicular) from side center to circle center
+RN - radius minus normal
+O - circle length
+C - circle arc length between two polygon vertex
+OC - full circle length minus C
+
+NU - normal from polygon side to circle center , to intersection with polygon oposite direction perimeter
+XU - sum of NU for each polygon side
+XR - sum of RN for each polygon side
+o - internal circle length
+
+Rr - R minus r, ring width
+v - "vertex -> center -> side" length
+
+squared values:
+F - full circle area
+A - area of polygon
+FA - full circle area minus polygon area
+AC - area of  circle sector
+AS - area of polygon sector
+ACAS - AC minus AS
+FAC - full circle area minus AC
+
+f - internal circle area
+r - ring area, F minus f
+ac - area of internal circle section
+as - area AS minus ac
+Af - area A minus f
+
+repeating is power of two
+   [wxMaxima: comment end   ] */
+
+
+/* [wxMaxima: input   start ] */
+starttime:absolute_real_time();
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: section start ]
+circle parameters
+   [wxMaxima: section end   ] */
+
+
+/* [wxMaxima: comment start ]
+R=1 R:1 || kill(R)
+   [wxMaxima: comment end   ] */
+
+
+/* [wxMaxima: input   start ] */
+R:1;R2:R;R3:R;R4:R;R6:R;R7:R;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+O:2*pi*R;O2:O;O3:O;O4:O;O6:O;O7:O;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+F:pi*R**2;F2:F;F3:F;F4:F;F6:F;F7:F;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+RR:R*R;RR2:RR;RR3:RR;RR4:RR;RR6:RR;RR7:RR;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+OO:O*O;OO2:OO;OO3:OO;OO4:OO;OO6:OO;OO7:OO;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+FF:F*F;FF2:FF;FF3:FF;FF4:FF;FF6:FF;FF7:FF;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: section start ]
+polygon n=2
+   [wxMaxima: section end   ] */
+
+
+/* [wxMaxima: input   start ] */
+S2:2*R;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+P2:4*R;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+PS2:P2-S2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+N2:0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+RN2:R2-N2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+C2:O2/2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+OC2:O2-C2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A2:0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+FA2:F2-A2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+AC2:F2/2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+AS2:A2/2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+ACAS2:AC2-AS2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+FAC2:F2-AC2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+NU2:0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+XU2:0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+XR2:RN2*2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+o2:2*pi*N2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+f2:pi*N2**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+r2:F2-f2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+ac2:f2/2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+as2:AS2-ac2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+Af2:A2-f2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+Rr2:R2-N2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+v2:R2*2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+SS2: S2**2; PP2:P2**2; AA2:A2**2; PSPS2:PS2**2; NN2:N2**2; RNRN2:RN2**2; CC2:C2**2; OCOC2:OC2**2; FAFA2:FA2**2;ACAC2:AC2**2;ASAS2:AS2**2;ACASACAS2:ACAS2**2;FACFAC2:FAC2**2;NUNU2:NU2**2;XUXU2:XU2**2;XRXR2:XR2**2;oo2:o2**2;ff2:f2**2;rr2:r2**2;acac2:ac2**2;asas2:as2**2;AfAf2:Af2**2;RrRr2:Rr2**2;vv2:v2**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: section start ]
+polygon n=3 triangle
+   [wxMaxima: section end   ] */
+
+
+/* [wxMaxima: input   start ] */
+S3:sqrt(3)*R;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+P3:3*(S3);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+PS3:P3-S3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+N3:3^(1/2)/6*(S3);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+RN3:R3-N3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+C3:O3/3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+OC3:O3-C3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A3:3**(1/2)/4*S3**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+FA3:F3-A3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+AC3:F3/3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+AS3:A3/3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+ACAS3:AC3-AS3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+FAC3:F3-AC3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+NU3:N3+R3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+XU3:NU3*3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+XR3:RN3*3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+o3:2*pi*N3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+f3:pi*N3**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+r3:F3-f3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+ac3:f3/3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+as3:AS3-ac3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+Af3:A3-f3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+Rr3:R3-N3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+v3:R3+N3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+SS3: S3**2; PP3:P3**2; AA3:A3**2; PSPS3:PS3**2; NN3:N3**2; RNRN3:RN3**2; CC3:C3**2; OCOC3:OC3**2; FAFA3:FA3**2;ACAC3:AC3**2;ASAS3:AS3**2;ACASACAS3:ACAS3**2;FACFAC3:FAC3**2;NUNU3:NU3**2;XUXU3:XU3**2;XRXR3:XR3**2;oo3:o3**2;ff3:f3**2;rr3:r3**2;acac3:ac3**2;asas3:as3**2;AfAf3:Af3**2;RrRr3:Rr3**2;vv3:v3**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: section start ]
+polygon n=4 square
+   [wxMaxima: section end   ] */
+
+
+/* [wxMaxima: input   start ] */
+S4:sqrt(2)*R4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+P4:4*S4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+PS4:P4-S4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+N4:S4/2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+RN4:R4-N4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+C4:O4/4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+OC4:O4-C4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A4:S4**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+FA4:F4-A4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+AC4:F4/4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+AS4:A4/4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+ACAS4:AC4-AS4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+FAC4:F4-AC4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+NU4:N4*2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+XU4:NU4*4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+XR4:RN4*4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+o4:2*pi*N4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+f4:pi*N4**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+r4:F4-f4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+ac4:f4/4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+as4:AS4-ac4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+Af4:A4-f4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+Rr4:R4-N4;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+v4:R4*2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+SS4: S4**2; PP4:P4**2; AA4:A4**2; PSPS4:PS4**2; NN4:N4**2; RNRN4:RN4**2; CC4:C4**2; OCOC4:OC4**2; FAFA4:FA4**2;ACAC4:AC4**2;ASAS4:AS4**2;ACASACAS4:ACAS4**2;FACFAC4:FAC4**2;NUNU4:NU4**2;XUXU4:XU4**2;XRXR4:XR4**2;oo4:o4**2;ff4:f4**2;rr4:r4**2;acac4:ac4**2;asas4:as4**2;AfAf4:Af4**2;RrRr4:Rr4**2;vv4:v4**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: section start ]
+pentagon not used
+   [wxMaxima: section end   ] */
+
+
+/* [wxMaxima: section start ]
+polygon n = 6 hexagon
+   [wxMaxima: section end   ] */
+
+
+/* [wxMaxima: input   start ] */
+S6:R6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+P6:6*R6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+PS6:P6-S6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+N6:3**(1/2)/2*R6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+RN6:R6-N6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+C6:O6/6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+OC6:O6-C6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A6:3*3**(1/2)/2*R6**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+FA6:F6-A6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+AC6:F6/6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+AS6:A6/6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+ACAS6:AC6-AS6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+FAC6:F6-AC6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+NU6:N6*2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+XU6:NU6*6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+XR6:RN6*6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+o6:2*pi*N6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+f6:pi*N6**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+r6:F6-f6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+ac6:f6/6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+as6:AS6-ac6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+Af6:A6-f6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+Rr6:R6-N6;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+v6:R6*2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+SS6: S6**2; PP6:P6**2; AA6:A6**2; PSPS6:PS6**2; NN6:N6**2; RNRN6:RN6**2; CC6:C6**2; OCOC6:OC6**2; FAFA6:FA6**2;ACAC6:AC6**2;ASAS6:AS6**2;ACASACAS6:ACAS6**2;FACFAC6:FAC6**2;NUNU6:NU6**2;XUXU6:XU6**2;XRXR6:XR6**2;oo6:o6**2;ff6:f6**2;rr6:r6**2;acac6:ac6**2;asas6:as6**2;AfAf6:Af6**2;RrRr6:Rr6**2;vv6:v6**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: section start ]
+polygon n = infinity , circle
+   [wxMaxima: section end   ] */
+
+
+/* [wxMaxima: input   start ] */
+S7:0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+P7:2*pi*R7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+PS7:P7-S7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+N7:R7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+RN7:R7-N7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+C7:0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+OC7:O7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+A7:pi*R7**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+FA7:F7-A7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+AC7:0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+AS7:0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+ACAS7:AC7-AS7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+FAC7:F7-AC7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+NU7:N7*2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: comment start ]
+XU7 cheated, because circle case is muddy.
+Infinity is bad for calc.
+Let's say circle will have one curve side.
+   [wxMaxima: comment end   ] */
+
+
+/* [wxMaxima: input   start ] */
+XU7:2*R7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+XR7:0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+o7:2*pi*N7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+f7:pi*N7**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+r7:F7-f7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+ac7:0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+as7:AS7-ac7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+Af7:A7-f7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+Rr7:R7-N7;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+v7:R7*2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+SS7: S7**2; PP7:P7**2; AA7:A7**2; PSPS7:PS7**2; NN7:N7**2; RNRN7:RN7**2; CC7:C7**2; OCOC7:OC7**2; FAFA7:FA7**2;ACAC7:AC7**2;ASAS7:AS7**2;ACASACAS7:ACAS7**2;FACFAC7:FAC7**2;NUNU7:NU7**2;XUXU7:XU7**2;XRXR7:XR7**2;oo7:o7**2;ff7:f7**2;rr7:r7**2;acac7:ac7**2;asas7:as7**2;AfAf7:Af7**2;RrRr7:Rr7**2;vv7:v7**2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: comment start ]
+simplyfying
+   [wxMaxima: comment end   ] */
+
+
+/* [wxMaxima: input   start ] */
+SS2:ratsimp(SS2)$ PP2:ratsimp(PP2)$ AA2:ratsimp(AA2)$ PSPS2:ratsimp(PSPS2)$ NN2:ratsimp(NN2)$ RNRN2:ratsimp(RNRN2)$ CC2:ratsimp(CC2)$ OCOC2:ratsimp(OCOC2)$ FAFA2:ratsimp(FAFA2)$ ACAC2:ratsimp(ACAC2)$ AC2:ratsimp(AC2)$ ASAS2:ratsimp(ASAS2)$ AS2:ratsimp(AS2)$ ACASACAS2:ratsimp(ACASACAS2)$ ACAS2:ratsimp(ACAS2)$ FACFAC2:ratsimp(FACFAC2)$ FAC2:ratsimp(FAC2)$ NU2:ratsimp(NU2)$ XU2:ratsimp(XU2)$ XR2:ratsimp(XR2)$ o2:ratsimp(o2)$ f2:ratsimp(f2)$ r2:ratsimp(r2)$ ac2:ratsimp(ac2)$ as2:ratsimp(as2)$ Af2:ratsimp(Af2)$ NUNU2:ratsimp(NUNU2)$ XUXU2:ratsimp(XUXU2)$ XRXR2:ratsimp(XRXR2)$ oo2:ratsimp(oo2)$ ff2:ratsimp(ff2)$ rr2:ratsimp(rr2)$ acac2:ratsimp(acac2)$ asas2:ratsimp(asas2)$ AfAf2:ratsimp(AfAf2)$
+
+SS3:ratsimp(SS3)$ PP3:ratsimp(PP3)$ AA3:ratsimp(AA3)$ PSPS3:ratsimp(PSPS3)$ NN3:ratsimp(NN3)$ RNRN3:ratsimp(RNRN3)$ CC3:ratsimp(CC3)$ OCOC3:ratsimp(OCOC3)$ FAFA3:ratsimp(FAFA3)$ ACAC3:ratsimp(ACAC3)$ AC3:ratsimp(AC3)$ ASAS3:ratsimp(ASAS3)$ AS3:ratsimp(AS3)$ ACASACAS3:ratsimp(ACASACAS3)$ ACAS3:ratsimp(ACAS3)$ FACFAC3:ratsimp(FACFAC3)$ FAC3:ratsimp(FAC3)$ NU3:ratsimp(NU3)$ XU3:ratsimp(XU3)$ XR3:ratsimp(XR3)$ o3:ratsimp(o3)$ f3:ratsimp(f3)$ r3:ratsimp(r3)$ ac3:ratsimp(ac3)$ as3:ratsimp(as3)$ Af3:ratsimp(Af3)$ NUNU3:ratsimp(NUNU3)$ XUXU3:ratsimp(XUXU3)$ XRXR3:ratsimp(XRXR3)$ oo3:ratsimp(oo3)$ ff3:ratsimp(ff3)$ rr3:ratsimp(rr3)$ acac3:ratsimp(acac3)$ asas3:ratsimp(asas3)$ AfAf3:ratsimp(AfAf3)$
+
+SS4:ratsimp(SS4)$ PP4:ratsimp(PP4)$ AA4:ratsimp(AA4)$ PSPS4:ratsimp(PSPS4)$ NN4:ratsimp(NN4)$ RNRN4:ratsimp(RNRN4)$ CC4:ratsimp(CC4)$ OCOC4:ratsimp(OCOC4)$ FAFA4:ratsimp(FAFA4)$ ACAC4:ratsimp(ACAC4)$ AC4:ratsimp(AC4)$ ASAS4:ratsimp(ASAS4)$ AS4:ratsimp(AS4)$ ACASACAS4:ratsimp(ACASACAS4)$ ACAS4:ratsimp(ACAS4)$ FACFAC4:ratsimp(FACFAC4)$ FAC4:ratsimp(FAC4)$ NU4:ratsimp(NU4)$ XU4:ratsimp(XU4)$ XR4:ratsimp(XR4)$ o4:ratsimp(o4)$ f4:ratsimp(f4)$ r4:ratsimp(r4)$ ac4:ratsimp(ac4)$ as4:ratsimp(as4)$ Af4:ratsimp(Af4)$ NUNU4:ratsimp(NUNU4)$ XUXU4:ratsimp(XUXU4)$ XRXR4:ratsimp(XRXR4)$ oo4:ratsimp(oo4)$ ff4:ratsimp(ff4)$ rr4:ratsimp(rr4)$ acac4:ratsimp(acac4)$ asas4:ratsimp(asas4)$ AfAf4:ratsimp(AfAf4)$
+
+SS6:ratsimp(SS6)$ PP6:ratsimp(PP6)$ AA6:ratsimp(AA6)$ PSPS6:ratsimp(PSPS6)$ NN6:ratsimp(NN6)$ RNRN6:ratsimp(RNRN6)$ CC6:ratsimp(CC6)$ OCOC6:ratsimp(OCOC6)$ FAFA6:ratsimp(FAFA6)$ ACAC6:ratsimp(ACAC6)$ AC6:ratsimp(AC6)$ ASAS6:ratsimp(ASAS6)$ AS6:ratsimp(AS6)$ ACASACAS6:ratsimp(ACASACAS6)$ ACAS6:ratsimp(ACAS6)$ FACFAC6:ratsimp(FACFAC6)$ FAC6:ratsimp(FAC6)$ NU6:ratsimp(NU6)$ XU6:ratsimp(XU6)$ XR6:ratsimp(XR6)$ o6:ratsimp(o6)$ f6:ratsimp(f6)$ r6:ratsimp(r6)$ ac6:ratsimp(ac6)$ as6:ratsimp(as6)$ Af6:ratsimp(Af6)$ NUNU6:ratsimp(NUNU6)$ XUXU6:ratsimp(XUXU6)$ XRXR6:ratsimp(XRXR6)$ oo6:ratsimp(oo6)$ ff6:ratsimp(ff6)$ rr6:ratsimp(rr6)$ acac6:ratsimp(acac6)$ asas6:ratsimp(asas6)$ AfAf6:ratsimp(AfAf6)$
+
+SS7:ratsimp(SS7)$ PP7:ratsimp(PP7)$ AA7:ratsimp(AA7)$ PSPS7:ratsimp(PSPS7)$ NN7:ratsimp(NN7)$ RNRN7:ratsimp(RNRN7)$ CC7:ratsimp(CC7)$ OCOC7:ratsimp(OCOC7)$ FAFA7:ratsimp(FAFA7)$ ACAC7:ratsimp(ACAC7)$ AC7:ratsimp(AC7)$ ASAS7:ratsimp(ASAS7)$ AS7:ratsimp(AS7)$ ACASACAS7:ratsimp(ACASACAS7)$ ACAS7:ratsimp(ACAS7)$ FACFAC7:ratsimp(FACFAC7)$ FAC7:ratsimp(FAC7)$ NU7:ratsimp(NU7)$ XU7:ratsimp(XU7)$ XR7:ratsimp(XR7)$ o7:ratsimp(o7)$ f7:ratsimp(f7)$ r7:ratsimp(r7)$ ac7:ratsimp(ac7)$ as7:ratsimp(as7)$ Af7:ratsimp(Af7)$ NUNU7:ratsimp(NUNU7)$ XUXU7:ratsimp(XUXU7)$ XRXR7:ratsimp(XRXR7)$ oo7:ratsimp(oo7)$ ff7:ratsimp(ff7)$ rr7:ratsimp(rr7)$ acac7:ratsimp(acac7)$ asas7:ratsimp(asas7)$ AfAf7:ratsimp(AfAf7)$
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+OO2:ratsimp(OO2)$ OO3:ratsimp(OO3)$ OO4:ratsimp(OO4)$ OO6:ratsimp(OO6)$ OO7:ratsimp(OO7)$ 
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+RrRr2:ratsimp(RrRr2)$ RrRr3:ratsimp(RrRr3)$ RrRr4:ratsimp(RrRr4)$ RrRr6:ratsimp(RrRr6)$ RrRr7:ratsimp(RrRr7)$ 
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+vv2:ratsimp(vv2)$ vv3:ratsimp(vv3)$ vv4:ratsimp(vv4)$ vv6:ratsimp(vv6)$ vv7:ratsimp(vv7)$ 
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: section start ]
+matrix
+batchStuff.txt included matrices and other stuff,
+prepared using CIRCMATRIXGENERATOR.html
+   [wxMaxima: section end   ] */
+
+
+/* [wxMaxima: title   start ]
+matrix place
+   [wxMaxima: title   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+batch("batchStuff.txt")$
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 20.12.2"$
