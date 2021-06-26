@@ -1,0 +1,5 @@
+/0 
+
+fox36109:matrix([R2,P2,PP2,ACASACAS2,o2],[R3,P3,PP3,ACASACAS3,o3],[R4,P4,PP4,ACASACAS4,o4],[R6,P6,PP6,ACASACAS6,o6],[R7,P7,PP7,ACASACAS7,o7])$ foxdet36109:determinant(fox36109)$ ratsimp(%)$ solve(%,pi)$ float(%)$ x[nomer]:(%)$ nomer:nomer+1$
+
+fox36670:matrix([R2,P2,PSPS2,ACASACAS2,o2],[R3,P3,PSPS3,ACASACAS3,o3],[R4,P4,PSPS4,ACASACAS4,o4],[R6,P6,PSPS6,ACASACAS6,o6],[R7,P7,PSPS7,ACASACAS7,o7])$ foxdet36670:determinant(fox36670)$ ratsimp(%)$ solve(%,pi)$ float(%)$ x[nomer]:(%)$ nomer:nomer+1$

@@ -1,0 +1,5 @@
+/0
+
+fox39739:matrix([R2,P2,AA2,ACASACAS2,XRXR2],[R3,P3,AA3,ACASACAS3,XRXR3],[R4,P4,AA4,ACASACAS4,XRXR4],[R6,P6,AA6,ACASACAS6,XRXR6],[R7,P7,AA7,ACASACAS7,XRXR7])$ foxdet39739:determinant(fox39739)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-38001-40000.txt")$ nomer:nomer+1$
+

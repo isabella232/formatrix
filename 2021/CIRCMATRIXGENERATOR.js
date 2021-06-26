@@ -62,7 +62,7 @@ function MAXIMAGENERATOR() {
 	addPrefixForNomer(out1);
 	if (inkrement >= out1 && inkrement <= out2) {
 
-		printc(c, k, nmassiv, iism1, iism2, textstart1, textstart2, textmid1, textmid2, textend1, textend2, inkrestart, inkremid, inkreend, inkrement, iism0, ignoriism, ignorthis)
+		printc(c, k, nmassiv, iism1, iism2, textstart1, textstart2, textmid1, textmid2, textend1, textend2, inkrestart, inkremid, inkreend, inkrement, iism0, ignoriism, ignorthis, out1, out2)
 	}
 
 	while (c[1] < n - k + 1) {
@@ -76,7 +76,7 @@ function MAXIMAGENERATOR() {
 		for (var j = i + 1; j <= k; j++) { c[j] = c[j - 1] + 1; }
 		inkrement++;
 		if (inkrement >= out1 && inkrement <= out2) {
-			printc(c, k, nmassiv, iism1, iism2, textstart1, textstart2, textmid1, textmid2, textend1, textend2, inkrestart, inkremid, inkreend, inkrement, iism0, ignoriism, ignorthis)
+			printc(c, k, nmassiv, iism1, iism2, textstart1, textstart2, textmid1, textmid2, textend1, textend2, inkrestart, inkremid, inkreend, inkrement, iism0, ignoriism, ignorthis, out1, out2);
 		}
 	}
 
@@ -89,19 +89,20 @@ function MAXIMAGENERATOR() {
 
 function addPrefixForNomer(out1) {
 	var texta = document.createElement('text');
+	var printAppend = "file_output_append:true;\n";
 	texta.innerHTML = "nomer:" + out1 + ";\n";
 	tabla.appendChild(texta);
 }
 
 function addSuffixForNomer(out1, out2) {
 	var texta = document.createElement('text');
-	var part1 = "x[nomer] : sconcat(round(float((absolute_real_time()-starttime)/60)) , \" minutes\");\n";
-	var part2 = "write_data(x, \"output-" + out1 + "-" + out2 + ".txt\");";
+	var part1 = "et : sconcat(round(float((absolute_real_time()-starttime)/60)) , \" minutes\");\n";
+	var part2 = "write_data(et, \"output-" + out1 + "-" + out2 + ".txt\");";
 	texta.innerHTML = part1 + part2;
 	tabla.appendChild(texta);
 }
 
-function printc(c, k, nmassiv, iism1, iism2, textstart1, textstart2, textmid1, textmid2, textend1, textend2, inkrestart, inkremid, inkreend, inkrement, iism0, ignoriism, ignorthis) {
+function printc(c, k, nmassiv, iism1, iism2, textstart1, textstart2, textmid1, textmid2, textend1, textend2, inkrestart, inkremid, inkreend, inkrement, iism0, ignoriism, ignorthis, out1, out2) {
 	printstarttext(textstart1, textstart2, inkrestart, inkrement);
 
 	// var tabla = document.getElementById('tabladiv');
@@ -159,7 +160,7 @@ function printc(c, k, nmassiv, iism1, iism2, textstart1, textstart2, textmid1, t
 
 	}
 	printmidtext(textmid1, textmid2, inkremid, inkrement);
-	printendtext(textend1, textend2, inkreend, inkrement);
+	printendtext(out1, out2, textend1, textend2, inkreend, inkrement);
 
 
 }
@@ -213,10 +214,10 @@ function printmidtext(textmid1, textmid2, inkremid, inkrement) {
 
 }
 
-function printendtext(textend1, textend2, inkreend, inkrement) {
+function printendtext(out1, out2, textend1, textend2, inkreend, inkrement) {
 
 	// var tabla = document.getElementById('tabladiv');
-	var textix = document.getElementById('text_end1').value;
+	var textix = textend1;
 	var texta = document.createElement('text');
 	texta.innerHTML = textix;
 	tabla.appendChild(texta);
@@ -232,7 +233,8 @@ function printendtext(textend1, textend2, inkreend, inkrement) {
 
 	var textix = textend2;
 	var texta = document.createElement('text');
-	texta.innerHTML = textix;
+	var writeData = "write_data([nomer, %], \"output-" + out1 + "-" + out2 + ".txt\")$ nomer:nomer+1$\n";
+	texta.innerHTML = textix + writeData;
 	tabla.appendChild(texta);
 
 }

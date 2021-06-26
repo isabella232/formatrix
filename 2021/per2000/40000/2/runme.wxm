@@ -800,11 +800,6 @@ prepared using CIRCMATRIXGENERATOR.html
    [wxMaxima: section end   ] */
 
 
-/* [wxMaxima: input   start ] */
-file_output_append:true;
-/* [wxMaxima: input   end   ] */
-
-
 /* [wxMaxima: title   start ]
 matrix place
    [wxMaxima: title   end   ] */
