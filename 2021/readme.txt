@@ -3,15 +3,23 @@
 
 !!! use wxm , because maxima fail with wxmx, in same time wxMaxima gui work done.
 
-use terminal way:
+general way:
+- copy _ with needed namenumber
+- add to each of 5 folders the batchStuff.txt, generated using CIRCMATRIXGENERATOR
+- run.sh
+- wait, while completed x5
+- check that no holes and last indices is correct, or manually drop failed matrices , and continue again, with nomer: beginned matrix number
+- when all completed, run max.py to calculate maximum value closer to pi
+
+
+use terminal way from wxm level:
 - maxima --very-quiet --batch=runme.wxm
 or this
 - terminal "maxima"
 - batch("file.wxm");
 or will fail output size etc after 500+ matrix, etc.
 
--place matrix to template file of maxima section 8 matrix
--output will in txt
+
 -matrix prepared using *CIRCMATRIXGENERATOR.html generator
 
 -summary present 3 000 000+ unique matrices with last scheme
