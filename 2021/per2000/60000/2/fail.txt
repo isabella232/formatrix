@@ -1,0 +1,6 @@
+fox52765:matrix([R2,PS2,ACAS2,PP2,FAFA2],[R3,PS3,ACAS3,PP3,FAFA3],[R4,PS4,ACAS4,PP4,FAFA4],[R6,PS6,ACAS6,PP6,FAFA6],[R7,PS7,ACAS7,PP7,FAFA7])$ foxdet52765:determinant(fox52765)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-52001-54000.txt")$ nomer:nomer+1$ 
+
+fox52799:matrix([R2,PS2,ACAS2,PSPS2,FAFA2],[R3,PS3,ACAS3,PSPS3,FAFA3],[R4,PS4,ACAS4,PSPS4,FAFA4],[R6,PS6,ACAS6,PSPS6,FAFA6],[R7,PS7,ACAS7,PSPS7,FAFA7])$ foxdet52799:determinant(fox52799)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-52001-54000.txt")$ nomer:nomer+1$
+
