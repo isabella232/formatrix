@@ -238,3 +238,17 @@ function printendtext(out1, out2, textend1, textend2, inkreend, inkrement) {
 	tabla.appendChild(texta);
 
 }
+
+function increase2000() {
+	var min = document.getElementById("input_out1").value;
+	var minVal = parseInt(min);
+	document.getElementById("input_out1").value = minVal + 2000;
+	document.getElementById("input_out2").value = minVal + 3999;
+}
+
+function decrease2000() {
+	var min = document.getElementById("input_out1").value;
+	var minVal = parseInt(min);
+	document.getElementById("input_out1").value = minVal - 2000;
+	document.getElementById("input_out2").value = minVal - 1;
+}
