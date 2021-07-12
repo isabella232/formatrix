@@ -1,0 +1,7 @@
+
+fox162609:matrix([R2,A2,PP2,ACASACAS2,XRXR2],[R3,A3,PP3,ACASACAS3,XRXR3],[R4,A4,PP4,ACASACAS4,XRXR4],[R6,A6,PP6,ACASACAS6,XRXR6],[R7,A7,PP7,ACASACAS7,XRXR7])$ foxdet162609:determinant(fox162609)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-162001-164000.txt")$ nomer:nomer+1$
+ 
+
+fox163170:matrix([R2,A2,PSPS2,ACASACAS2,XRXR2],[R3,A3,PSPS3,ACASACAS3,XRXR3],[R4,A4,PSPS4,ACASACAS4,XRXR4],[R6,A6,PSPS6,ACASACAS6,XRXR6],[R7,A7,PSPS7,ACASACAS7,XRXR7])$ foxdet163170:determinant(fox163170)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-162001-164000.txt")$ nomer:nomer+1$
