@@ -1,0 +1,587 @@
+nomer:177710;
+
+
+fox177710:matrix([R2,FA2,AA2,ACASACAS2,oo2],[R3,FA3,AA3,ACASACAS3,oo3],[R4,FA4,AA4,ACASACAS4,oo4],[R6,FA6,AA6,ACASACAS6,oo6],[R7,FA7,AA7,ACASACAS7,oo7])$ foxdet177710:determinant(fox177710)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177711:matrix([R2,FA2,AA2,ACASACAS2,ff2],[R3,FA3,AA3,ACASACAS3,ff3],[R4,FA4,AA4,ACASACAS4,ff4],[R6,FA6,AA6,ACASACAS6,ff6],[R7,FA7,AA7,ACASACAS7,ff7])$ foxdet177711:determinant(fox177711)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177712:matrix([R2,FA2,AA2,ACASACAS2,rr2],[R3,FA3,AA3,ACASACAS3,rr3],[R4,FA4,AA4,ACASACAS4,rr4],[R6,FA6,AA6,ACASACAS6,rr6],[R7,FA7,AA7,ACASACAS7,rr7])$ foxdet177712:determinant(fox177712)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177713:matrix([R2,FA2,AA2,ACASACAS2,acac2],[R3,FA3,AA3,ACASACAS3,acac3],[R4,FA4,AA4,ACASACAS4,acac4],[R6,FA6,AA6,ACASACAS6,acac6],[R7,FA7,AA7,ACASACAS7,acac7])$ foxdet177713:determinant(fox177713)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177714:matrix([R2,FA2,AA2,ACASACAS2,asas2],[R3,FA3,AA3,ACASACAS3,asas3],[R4,FA4,AA4,ACASACAS4,asas4],[R6,FA6,AA6,ACASACAS6,asas6],[R7,FA7,AA7,ACASACAS7,asas7])$ foxdet177714:determinant(fox177714)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177715:matrix([R2,FA2,AA2,ACASACAS2,AfAf2],[R3,FA3,AA3,ACASACAS3,AfAf3],[R4,FA4,AA4,ACASACAS4,AfAf4],[R6,FA6,AA6,ACASACAS6,AfAf6],[R7,FA7,AA7,ACASACAS7,AfAf7])$ foxdet177715:determinant(fox177715)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177716:matrix([R2,FA2,AA2,ACASACAS2,RrRr2],[R3,FA3,AA3,ACASACAS3,RrRr3],[R4,FA4,AA4,ACASACAS4,RrRr4],[R6,FA6,AA6,ACASACAS6,RrRr6],[R7,FA7,AA7,ACASACAS7,RrRr7])$ foxdet177716:determinant(fox177716)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177717:matrix([R2,FA2,AA2,ACASACAS2,vv2],[R3,FA3,AA3,ACASACAS3,vv3],[R4,FA4,AA4,ACASACAS4,vv4],[R6,FA6,AA6,ACASACAS6,vv6],[R7,FA7,AA7,ACASACAS7,vv7])$ foxdet177717:determinant(fox177717)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177718:matrix([R2,FA2,AA2,FACFAC2,NU2],[R3,FA3,AA3,FACFAC3,NU3],[R4,FA4,AA4,FACFAC4,NU4],[R6,FA6,AA6,FACFAC6,NU6],[R7,FA7,AA7,FACFAC7,NU7])$ foxdet177718:determinant(fox177718)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177719:matrix([R2,FA2,AA2,FACFAC2,XU2],[R3,FA3,AA3,FACFAC3,XU3],[R4,FA4,AA4,FACFAC4,XU4],[R6,FA6,AA6,FACFAC6,XU6],[R7,FA7,AA7,FACFAC7,XU7])$ foxdet177719:determinant(fox177719)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177720:matrix([R2,FA2,AA2,FACFAC2,XR2],[R3,FA3,AA3,FACFAC3,XR3],[R4,FA4,AA4,FACFAC4,XR4],[R6,FA6,AA6,FACFAC6,XR6],[R7,FA7,AA7,FACFAC7,XR7])$ foxdet177720:determinant(fox177720)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177721:matrix([R2,FA2,AA2,FACFAC2,o2],[R3,FA3,AA3,FACFAC3,o3],[R4,FA4,AA4,FACFAC4,o4],[R6,FA6,AA6,FACFAC6,o6],[R7,FA7,AA7,FACFAC7,o7])$ foxdet177721:determinant(fox177721)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177722:matrix([R2,FA2,AA2,FACFAC2,f2],[R3,FA3,AA3,FACFAC3,f3],[R4,FA4,AA4,FACFAC4,f4],[R6,FA6,AA6,FACFAC6,f6],[R7,FA7,AA7,FACFAC7,f7])$ foxdet177722:determinant(fox177722)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177723:matrix([R2,FA2,AA2,FACFAC2,r2],[R3,FA3,AA3,FACFAC3,r3],[R4,FA4,AA4,FACFAC4,r4],[R6,FA6,AA6,FACFAC6,r6],[R7,FA7,AA7,FACFAC7,r7])$ foxdet177723:determinant(fox177723)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177724:matrix([R2,FA2,AA2,FACFAC2,ac2],[R3,FA3,AA3,FACFAC3,ac3],[R4,FA4,AA4,FACFAC4,ac4],[R6,FA6,AA6,FACFAC6,ac6],[R7,FA7,AA7,FACFAC7,ac7])$ foxdet177724:determinant(fox177724)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177725:matrix([R2,FA2,AA2,FACFAC2,as2],[R3,FA3,AA3,FACFAC3,as3],[R4,FA4,AA4,FACFAC4,as4],[R6,FA6,AA6,FACFAC6,as6],[R7,FA7,AA7,FACFAC7,as7])$ foxdet177725:determinant(fox177725)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177726:matrix([R2,FA2,AA2,FACFAC2,Af2],[R3,FA3,AA3,FACFAC3,Af3],[R4,FA4,AA4,FACFAC4,Af4],[R6,FA6,AA6,FACFAC6,Af6],[R7,FA7,AA7,FACFAC7,Af7])$ foxdet177726:determinant(fox177726)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177727:matrix([R2,FA2,AA2,FACFAC2,Rr2],[R3,FA3,AA3,FACFAC3,Rr3],[R4,FA4,AA4,FACFAC4,Rr4],[R6,FA6,AA6,FACFAC6,Rr6],[R7,FA7,AA7,FACFAC7,Rr7])$ foxdet177727:determinant(fox177727)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177728:matrix([R2,FA2,AA2,FACFAC2,v2],[R3,FA3,AA3,FACFAC3,v3],[R4,FA4,AA4,FACFAC4,v4],[R6,FA6,AA6,FACFAC6,v6],[R7,FA7,AA7,FACFAC7,v7])$ foxdet177728:determinant(fox177728)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177729:matrix([R2,FA2,AA2,FACFAC2,NUNU2],[R3,FA3,AA3,FACFAC3,NUNU3],[R4,FA4,AA4,FACFAC4,NUNU4],[R6,FA6,AA6,FACFAC6,NUNU6],[R7,FA7,AA7,FACFAC7,NUNU7])$ foxdet177729:determinant(fox177729)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177730:matrix([R2,FA2,AA2,FACFAC2,XUXU2],[R3,FA3,AA3,FACFAC3,XUXU3],[R4,FA4,AA4,FACFAC4,XUXU4],[R6,FA6,AA6,FACFAC6,XUXU6],[R7,FA7,AA7,FACFAC7,XUXU7])$ foxdet177730:determinant(fox177730)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177731:matrix([R2,FA2,AA2,FACFAC2,XRXR2],[R3,FA3,AA3,FACFAC3,XRXR3],[R4,FA4,AA4,FACFAC4,XRXR4],[R6,FA6,AA6,FACFAC6,XRXR6],[R7,FA7,AA7,FACFAC7,XRXR7])$ foxdet177731:determinant(fox177731)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177732:matrix([R2,FA2,AA2,FACFAC2,oo2],[R3,FA3,AA3,FACFAC3,oo3],[R4,FA4,AA4,FACFAC4,oo4],[R6,FA6,AA6,FACFAC6,oo6],[R7,FA7,AA7,FACFAC7,oo7])$ foxdet177732:determinant(fox177732)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177733:matrix([R2,FA2,AA2,FACFAC2,ff2],[R3,FA3,AA3,FACFAC3,ff3],[R4,FA4,AA4,FACFAC4,ff4],[R6,FA6,AA6,FACFAC6,ff6],[R7,FA7,AA7,FACFAC7,ff7])$ foxdet177733:determinant(fox177733)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177734:matrix([R2,FA2,AA2,FACFAC2,rr2],[R3,FA3,AA3,FACFAC3,rr3],[R4,FA4,AA4,FACFAC4,rr4],[R6,FA6,AA6,FACFAC6,rr6],[R7,FA7,AA7,FACFAC7,rr7])$ foxdet177734:determinant(fox177734)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177735:matrix([R2,FA2,AA2,FACFAC2,acac2],[R3,FA3,AA3,FACFAC3,acac3],[R4,FA4,AA4,FACFAC4,acac4],[R6,FA6,AA6,FACFAC6,acac6],[R7,FA7,AA7,FACFAC7,acac7])$ foxdet177735:determinant(fox177735)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177736:matrix([R2,FA2,AA2,FACFAC2,asas2],[R3,FA3,AA3,FACFAC3,asas3],[R4,FA4,AA4,FACFAC4,asas4],[R6,FA6,AA6,FACFAC6,asas6],[R7,FA7,AA7,FACFAC7,asas7])$ foxdet177736:determinant(fox177736)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177737:matrix([R2,FA2,AA2,FACFAC2,AfAf2],[R3,FA3,AA3,FACFAC3,AfAf3],[R4,FA4,AA4,FACFAC4,AfAf4],[R6,FA6,AA6,FACFAC6,AfAf6],[R7,FA7,AA7,FACFAC7,AfAf7])$ foxdet177737:determinant(fox177737)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177738:matrix([R2,FA2,AA2,FACFAC2,RrRr2],[R3,FA3,AA3,FACFAC3,RrRr3],[R4,FA4,AA4,FACFAC4,RrRr4],[R6,FA6,AA6,FACFAC6,RrRr6],[R7,FA7,AA7,FACFAC7,RrRr7])$ foxdet177738:determinant(fox177738)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177739:matrix([R2,FA2,AA2,FACFAC2,vv2],[R3,FA3,AA3,FACFAC3,vv3],[R4,FA4,AA4,FACFAC4,vv4],[R6,FA6,AA6,FACFAC6,vv6],[R7,FA7,AA7,FACFAC7,vv7])$ foxdet177739:determinant(fox177739)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177740:matrix([R2,FA2,AA2,NU2,XU2],[R3,FA3,AA3,NU3,XU3],[R4,FA4,AA4,NU4,XU4],[R6,FA6,AA6,NU6,XU6],[R7,FA7,AA7,NU7,XU7])$ foxdet177740:determinant(fox177740)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177741:matrix([R2,FA2,AA2,NU2,XR2],[R3,FA3,AA3,NU3,XR3],[R4,FA4,AA4,NU4,XR4],[R6,FA6,AA6,NU6,XR6],[R7,FA7,AA7,NU7,XR7])$ foxdet177741:determinant(fox177741)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177742:matrix([R2,FA2,AA2,NU2,o2],[R3,FA3,AA3,NU3,o3],[R4,FA4,AA4,NU4,o4],[R6,FA6,AA6,NU6,o6],[R7,FA7,AA7,NU7,o7])$ foxdet177742:determinant(fox177742)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177743:matrix([R2,FA2,AA2,NU2,f2],[R3,FA3,AA3,NU3,f3],[R4,FA4,AA4,NU4,f4],[R6,FA6,AA6,NU6,f6],[R7,FA7,AA7,NU7,f7])$ foxdet177743:determinant(fox177743)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177744:matrix([R2,FA2,AA2,NU2,r2],[R3,FA3,AA3,NU3,r3],[R4,FA4,AA4,NU4,r4],[R6,FA6,AA6,NU6,r6],[R7,FA7,AA7,NU7,r7])$ foxdet177744:determinant(fox177744)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177745:matrix([R2,FA2,AA2,NU2,ac2],[R3,FA3,AA3,NU3,ac3],[R4,FA4,AA4,NU4,ac4],[R6,FA6,AA6,NU6,ac6],[R7,FA7,AA7,NU7,ac7])$ foxdet177745:determinant(fox177745)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177746:matrix([R2,FA2,AA2,NU2,as2],[R3,FA3,AA3,NU3,as3],[R4,FA4,AA4,NU4,as4],[R6,FA6,AA6,NU6,as6],[R7,FA7,AA7,NU7,as7])$ foxdet177746:determinant(fox177746)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177747:matrix([R2,FA2,AA2,NU2,Af2],[R3,FA3,AA3,NU3,Af3],[R4,FA4,AA4,NU4,Af4],[R6,FA6,AA6,NU6,Af6],[R7,FA7,AA7,NU7,Af7])$ foxdet177747:determinant(fox177747)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177748:matrix([R2,FA2,AA2,NU2,Rr2],[R3,FA3,AA3,NU3,Rr3],[R4,FA4,AA4,NU4,Rr4],[R6,FA6,AA6,NU6,Rr6],[R7,FA7,AA7,NU7,Rr7])$ foxdet177748:determinant(fox177748)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177749:matrix([R2,FA2,AA2,NU2,v2],[R3,FA3,AA3,NU3,v3],[R4,FA4,AA4,NU4,v4],[R6,FA6,AA6,NU6,v6],[R7,FA7,AA7,NU7,v7])$ foxdet177749:determinant(fox177749)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177750:matrix([R2,FA2,AA2,NU2,NUNU2],[R3,FA3,AA3,NU3,NUNU3],[R4,FA4,AA4,NU4,NUNU4],[R6,FA6,AA6,NU6,NUNU6],[R7,FA7,AA7,NU7,NUNU7])$ foxdet177750:determinant(fox177750)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177751:matrix([R2,FA2,AA2,NU2,XUXU2],[R3,FA3,AA3,NU3,XUXU3],[R4,FA4,AA4,NU4,XUXU4],[R6,FA6,AA6,NU6,XUXU6],[R7,FA7,AA7,NU7,XUXU7])$ foxdet177751:determinant(fox177751)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177752:matrix([R2,FA2,AA2,NU2,XRXR2],[R3,FA3,AA3,NU3,XRXR3],[R4,FA4,AA4,NU4,XRXR4],[R6,FA6,AA6,NU6,XRXR6],[R7,FA7,AA7,NU7,XRXR7])$ foxdet177752:determinant(fox177752)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177753:matrix([R2,FA2,AA2,NU2,oo2],[R3,FA3,AA3,NU3,oo3],[R4,FA4,AA4,NU4,oo4],[R6,FA6,AA6,NU6,oo6],[R7,FA7,AA7,NU7,oo7])$ foxdet177753:determinant(fox177753)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177754:matrix([R2,FA2,AA2,NU2,ff2],[R3,FA3,AA3,NU3,ff3],[R4,FA4,AA4,NU4,ff4],[R6,FA6,AA6,NU6,ff6],[R7,FA7,AA7,NU7,ff7])$ foxdet177754:determinant(fox177754)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177755:matrix([R2,FA2,AA2,NU2,rr2],[R3,FA3,AA3,NU3,rr3],[R4,FA4,AA4,NU4,rr4],[R6,FA6,AA6,NU6,rr6],[R7,FA7,AA7,NU7,rr7])$ foxdet177755:determinant(fox177755)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177756:matrix([R2,FA2,AA2,NU2,acac2],[R3,FA3,AA3,NU3,acac3],[R4,FA4,AA4,NU4,acac4],[R6,FA6,AA6,NU6,acac6],[R7,FA7,AA7,NU7,acac7])$ foxdet177756:determinant(fox177756)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177757:matrix([R2,FA2,AA2,NU2,asas2],[R3,FA3,AA3,NU3,asas3],[R4,FA4,AA4,NU4,asas4],[R6,FA6,AA6,NU6,asas6],[R7,FA7,AA7,NU7,asas7])$ foxdet177757:determinant(fox177757)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177758:matrix([R2,FA2,AA2,NU2,AfAf2],[R3,FA3,AA3,NU3,AfAf3],[R4,FA4,AA4,NU4,AfAf4],[R6,FA6,AA6,NU6,AfAf6],[R7,FA7,AA7,NU7,AfAf7])$ foxdet177758:determinant(fox177758)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177759:matrix([R2,FA2,AA2,NU2,RrRr2],[R3,FA3,AA3,NU3,RrRr3],[R4,FA4,AA4,NU4,RrRr4],[R6,FA6,AA6,NU6,RrRr6],[R7,FA7,AA7,NU7,RrRr7])$ foxdet177759:determinant(fox177759)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177760:matrix([R2,FA2,AA2,NU2,vv2],[R3,FA3,AA3,NU3,vv3],[R4,FA4,AA4,NU4,vv4],[R6,FA6,AA6,NU6,vv6],[R7,FA7,AA7,NU7,vv7])$ foxdet177760:determinant(fox177760)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177761:matrix([R2,FA2,AA2,XU2,XR2],[R3,FA3,AA3,XU3,XR3],[R4,FA4,AA4,XU4,XR4],[R6,FA6,AA6,XU6,XR6],[R7,FA7,AA7,XU7,XR7])$ foxdet177761:determinant(fox177761)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177762:matrix([R2,FA2,AA2,XU2,o2],[R3,FA3,AA3,XU3,o3],[R4,FA4,AA4,XU4,o4],[R6,FA6,AA6,XU6,o6],[R7,FA7,AA7,XU7,o7])$ foxdet177762:determinant(fox177762)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177763:matrix([R2,FA2,AA2,XU2,f2],[R3,FA3,AA3,XU3,f3],[R4,FA4,AA4,XU4,f4],[R6,FA6,AA6,XU6,f6],[R7,FA7,AA7,XU7,f7])$ foxdet177763:determinant(fox177763)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177764:matrix([R2,FA2,AA2,XU2,r2],[R3,FA3,AA3,XU3,r3],[R4,FA4,AA4,XU4,r4],[R6,FA6,AA6,XU6,r6],[R7,FA7,AA7,XU7,r7])$ foxdet177764:determinant(fox177764)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177765:matrix([R2,FA2,AA2,XU2,ac2],[R3,FA3,AA3,XU3,ac3],[R4,FA4,AA4,XU4,ac4],[R6,FA6,AA6,XU6,ac6],[R7,FA7,AA7,XU7,ac7])$ foxdet177765:determinant(fox177765)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177766:matrix([R2,FA2,AA2,XU2,as2],[R3,FA3,AA3,XU3,as3],[R4,FA4,AA4,XU4,as4],[R6,FA6,AA6,XU6,as6],[R7,FA7,AA7,XU7,as7])$ foxdet177766:determinant(fox177766)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177767:matrix([R2,FA2,AA2,XU2,Af2],[R3,FA3,AA3,XU3,Af3],[R4,FA4,AA4,XU4,Af4],[R6,FA6,AA6,XU6,Af6],[R7,FA7,AA7,XU7,Af7])$ foxdet177767:determinant(fox177767)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177768:matrix([R2,FA2,AA2,XU2,Rr2],[R3,FA3,AA3,XU3,Rr3],[R4,FA4,AA4,XU4,Rr4],[R6,FA6,AA6,XU6,Rr6],[R7,FA7,AA7,XU7,Rr7])$ foxdet177768:determinant(fox177768)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177769:matrix([R2,FA2,AA2,XU2,v2],[R3,FA3,AA3,XU3,v3],[R4,FA4,AA4,XU4,v4],[R6,FA6,AA6,XU6,v6],[R7,FA7,AA7,XU7,v7])$ foxdet177769:determinant(fox177769)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177770:matrix([R2,FA2,AA2,XU2,NUNU2],[R3,FA3,AA3,XU3,NUNU3],[R4,FA4,AA4,XU4,NUNU4],[R6,FA6,AA6,XU6,NUNU6],[R7,FA7,AA7,XU7,NUNU7])$ foxdet177770:determinant(fox177770)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177771:matrix([R2,FA2,AA2,XU2,XUXU2],[R3,FA3,AA3,XU3,XUXU3],[R4,FA4,AA4,XU4,XUXU4],[R6,FA6,AA6,XU6,XUXU6],[R7,FA7,AA7,XU7,XUXU7])$ foxdet177771:determinant(fox177771)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177772:matrix([R2,FA2,AA2,XU2,XRXR2],[R3,FA3,AA3,XU3,XRXR3],[R4,FA4,AA4,XU4,XRXR4],[R6,FA6,AA6,XU6,XRXR6],[R7,FA7,AA7,XU7,XRXR7])$ foxdet177772:determinant(fox177772)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177773:matrix([R2,FA2,AA2,XU2,oo2],[R3,FA3,AA3,XU3,oo3],[R4,FA4,AA4,XU4,oo4],[R6,FA6,AA6,XU6,oo6],[R7,FA7,AA7,XU7,oo7])$ foxdet177773:determinant(fox177773)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177774:matrix([R2,FA2,AA2,XU2,ff2],[R3,FA3,AA3,XU3,ff3],[R4,FA4,AA4,XU4,ff4],[R6,FA6,AA6,XU6,ff6],[R7,FA7,AA7,XU7,ff7])$ foxdet177774:determinant(fox177774)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177775:matrix([R2,FA2,AA2,XU2,rr2],[R3,FA3,AA3,XU3,rr3],[R4,FA4,AA4,XU4,rr4],[R6,FA6,AA6,XU6,rr6],[R7,FA7,AA7,XU7,rr7])$ foxdet177775:determinant(fox177775)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177776:matrix([R2,FA2,AA2,XU2,acac2],[R3,FA3,AA3,XU3,acac3],[R4,FA4,AA4,XU4,acac4],[R6,FA6,AA6,XU6,acac6],[R7,FA7,AA7,XU7,acac7])$ foxdet177776:determinant(fox177776)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177777:matrix([R2,FA2,AA2,XU2,asas2],[R3,FA3,AA3,XU3,asas3],[R4,FA4,AA4,XU4,asas4],[R6,FA6,AA6,XU6,asas6],[R7,FA7,AA7,XU7,asas7])$ foxdet177777:determinant(fox177777)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177778:matrix([R2,FA2,AA2,XU2,AfAf2],[R3,FA3,AA3,XU3,AfAf3],[R4,FA4,AA4,XU4,AfAf4],[R6,FA6,AA6,XU6,AfAf6],[R7,FA7,AA7,XU7,AfAf7])$ foxdet177778:determinant(fox177778)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177779:matrix([R2,FA2,AA2,XU2,RrRr2],[R3,FA3,AA3,XU3,RrRr3],[R4,FA4,AA4,XU4,RrRr4],[R6,FA6,AA6,XU6,RrRr6],[R7,FA7,AA7,XU7,RrRr7])$ foxdet177779:determinant(fox177779)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177780:matrix([R2,FA2,AA2,XU2,vv2],[R3,FA3,AA3,XU3,vv3],[R4,FA4,AA4,XU4,vv4],[R6,FA6,AA6,XU6,vv6],[R7,FA7,AA7,XU7,vv7])$ foxdet177780:determinant(fox177780)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177781:matrix([R2,FA2,AA2,XR2,o2],[R3,FA3,AA3,XR3,o3],[R4,FA4,AA4,XR4,o4],[R6,FA6,AA6,XR6,o6],[R7,FA7,AA7,XR7,o7])$ foxdet177781:determinant(fox177781)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177782:matrix([R2,FA2,AA2,XR2,f2],[R3,FA3,AA3,XR3,f3],[R4,FA4,AA4,XR4,f4],[R6,FA6,AA6,XR6,f6],[R7,FA7,AA7,XR7,f7])$ foxdet177782:determinant(fox177782)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177783:matrix([R2,FA2,AA2,XR2,r2],[R3,FA3,AA3,XR3,r3],[R4,FA4,AA4,XR4,r4],[R6,FA6,AA6,XR6,r6],[R7,FA7,AA7,XR7,r7])$ foxdet177783:determinant(fox177783)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177784:matrix([R2,FA2,AA2,XR2,ac2],[R3,FA3,AA3,XR3,ac3],[R4,FA4,AA4,XR4,ac4],[R6,FA6,AA6,XR6,ac6],[R7,FA7,AA7,XR7,ac7])$ foxdet177784:determinant(fox177784)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177785:matrix([R2,FA2,AA2,XR2,as2],[R3,FA3,AA3,XR3,as3],[R4,FA4,AA4,XR4,as4],[R6,FA6,AA6,XR6,as6],[R7,FA7,AA7,XR7,as7])$ foxdet177785:determinant(fox177785)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177786:matrix([R2,FA2,AA2,XR2,Af2],[R3,FA3,AA3,XR3,Af3],[R4,FA4,AA4,XR4,Af4],[R6,FA6,AA6,XR6,Af6],[R7,FA7,AA7,XR7,Af7])$ foxdet177786:determinant(fox177786)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177787:matrix([R2,FA2,AA2,XR2,Rr2],[R3,FA3,AA3,XR3,Rr3],[R4,FA4,AA4,XR4,Rr4],[R6,FA6,AA6,XR6,Rr6],[R7,FA7,AA7,XR7,Rr7])$ foxdet177787:determinant(fox177787)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177788:matrix([R2,FA2,AA2,XR2,v2],[R3,FA3,AA3,XR3,v3],[R4,FA4,AA4,XR4,v4],[R6,FA6,AA6,XR6,v6],[R7,FA7,AA7,XR7,v7])$ foxdet177788:determinant(fox177788)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177789:matrix([R2,FA2,AA2,XR2,NUNU2],[R3,FA3,AA3,XR3,NUNU3],[R4,FA4,AA4,XR4,NUNU4],[R6,FA6,AA6,XR6,NUNU6],[R7,FA7,AA7,XR7,NUNU7])$ foxdet177789:determinant(fox177789)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177790:matrix([R2,FA2,AA2,XR2,XUXU2],[R3,FA3,AA3,XR3,XUXU3],[R4,FA4,AA4,XR4,XUXU4],[R6,FA6,AA6,XR6,XUXU6],[R7,FA7,AA7,XR7,XUXU7])$ foxdet177790:determinant(fox177790)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177791:matrix([R2,FA2,AA2,XR2,XRXR2],[R3,FA3,AA3,XR3,XRXR3],[R4,FA4,AA4,XR4,XRXR4],[R6,FA6,AA6,XR6,XRXR6],[R7,FA7,AA7,XR7,XRXR7])$ foxdet177791:determinant(fox177791)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177792:matrix([R2,FA2,AA2,XR2,oo2],[R3,FA3,AA3,XR3,oo3],[R4,FA4,AA4,XR4,oo4],[R6,FA6,AA6,XR6,oo6],[R7,FA7,AA7,XR7,oo7])$ foxdet177792:determinant(fox177792)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177793:matrix([R2,FA2,AA2,XR2,ff2],[R3,FA3,AA3,XR3,ff3],[R4,FA4,AA4,XR4,ff4],[R6,FA6,AA6,XR6,ff6],[R7,FA7,AA7,XR7,ff7])$ foxdet177793:determinant(fox177793)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177794:matrix([R2,FA2,AA2,XR2,rr2],[R3,FA3,AA3,XR3,rr3],[R4,FA4,AA4,XR4,rr4],[R6,FA6,AA6,XR6,rr6],[R7,FA7,AA7,XR7,rr7])$ foxdet177794:determinant(fox177794)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177795:matrix([R2,FA2,AA2,XR2,acac2],[R3,FA3,AA3,XR3,acac3],[R4,FA4,AA4,XR4,acac4],[R6,FA6,AA6,XR6,acac6],[R7,FA7,AA7,XR7,acac7])$ foxdet177795:determinant(fox177795)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177796:matrix([R2,FA2,AA2,XR2,asas2],[R3,FA3,AA3,XR3,asas3],[R4,FA4,AA4,XR4,asas4],[R6,FA6,AA6,XR6,asas6],[R7,FA7,AA7,XR7,asas7])$ foxdet177796:determinant(fox177796)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177797:matrix([R2,FA2,AA2,XR2,AfAf2],[R3,FA3,AA3,XR3,AfAf3],[R4,FA4,AA4,XR4,AfAf4],[R6,FA6,AA6,XR6,AfAf6],[R7,FA7,AA7,XR7,AfAf7])$ foxdet177797:determinant(fox177797)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177798:matrix([R2,FA2,AA2,XR2,RrRr2],[R3,FA3,AA3,XR3,RrRr3],[R4,FA4,AA4,XR4,RrRr4],[R6,FA6,AA6,XR6,RrRr6],[R7,FA7,AA7,XR7,RrRr7])$ foxdet177798:determinant(fox177798)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177799:matrix([R2,FA2,AA2,XR2,vv2],[R3,FA3,AA3,XR3,vv3],[R4,FA4,AA4,XR4,vv4],[R6,FA6,AA6,XR6,vv6],[R7,FA7,AA7,XR7,vv7])$ foxdet177799:determinant(fox177799)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177800:matrix([R2,FA2,AA2,o2,f2],[R3,FA3,AA3,o3,f3],[R4,FA4,AA4,o4,f4],[R6,FA6,AA6,o6,f6],[R7,FA7,AA7,o7,f7])$ foxdet177800:determinant(fox177800)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177801:matrix([R2,FA2,AA2,o2,r2],[R3,FA3,AA3,o3,r3],[R4,FA4,AA4,o4,r4],[R6,FA6,AA6,o6,r6],[R7,FA7,AA7,o7,r7])$ foxdet177801:determinant(fox177801)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177802:matrix([R2,FA2,AA2,o2,ac2],[R3,FA3,AA3,o3,ac3],[R4,FA4,AA4,o4,ac4],[R6,FA6,AA6,o6,ac6],[R7,FA7,AA7,o7,ac7])$ foxdet177802:determinant(fox177802)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177803:matrix([R2,FA2,AA2,o2,as2],[R3,FA3,AA3,o3,as3],[R4,FA4,AA4,o4,as4],[R6,FA6,AA6,o6,as6],[R7,FA7,AA7,o7,as7])$ foxdet177803:determinant(fox177803)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177804:matrix([R2,FA2,AA2,o2,Af2],[R3,FA3,AA3,o3,Af3],[R4,FA4,AA4,o4,Af4],[R6,FA6,AA6,o6,Af6],[R7,FA7,AA7,o7,Af7])$ foxdet177804:determinant(fox177804)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177805:matrix([R2,FA2,AA2,o2,Rr2],[R3,FA3,AA3,o3,Rr3],[R4,FA4,AA4,o4,Rr4],[R6,FA6,AA6,o6,Rr6],[R7,FA7,AA7,o7,Rr7])$ foxdet177805:determinant(fox177805)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177806:matrix([R2,FA2,AA2,o2,v2],[R3,FA3,AA3,o3,v3],[R4,FA4,AA4,o4,v4],[R6,FA6,AA6,o6,v6],[R7,FA7,AA7,o7,v7])$ foxdet177806:determinant(fox177806)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177807:matrix([R2,FA2,AA2,o2,NUNU2],[R3,FA3,AA3,o3,NUNU3],[R4,FA4,AA4,o4,NUNU4],[R6,FA6,AA6,o6,NUNU6],[R7,FA7,AA7,o7,NUNU7])$ foxdet177807:determinant(fox177807)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177808:matrix([R2,FA2,AA2,o2,XUXU2],[R3,FA3,AA3,o3,XUXU3],[R4,FA4,AA4,o4,XUXU4],[R6,FA6,AA6,o6,XUXU6],[R7,FA7,AA7,o7,XUXU7])$ foxdet177808:determinant(fox177808)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177809:matrix([R2,FA2,AA2,o2,XRXR2],[R3,FA3,AA3,o3,XRXR3],[R4,FA4,AA4,o4,XRXR4],[R6,FA6,AA6,o6,XRXR6],[R7,FA7,AA7,o7,XRXR7])$ foxdet177809:determinant(fox177809)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177810:matrix([R2,FA2,AA2,o2,oo2],[R3,FA3,AA3,o3,oo3],[R4,FA4,AA4,o4,oo4],[R6,FA6,AA6,o6,oo6],[R7,FA7,AA7,o7,oo7])$ foxdet177810:determinant(fox177810)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177811:matrix([R2,FA2,AA2,o2,ff2],[R3,FA3,AA3,o3,ff3],[R4,FA4,AA4,o4,ff4],[R6,FA6,AA6,o6,ff6],[R7,FA7,AA7,o7,ff7])$ foxdet177811:determinant(fox177811)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177812:matrix([R2,FA2,AA2,o2,rr2],[R3,FA3,AA3,o3,rr3],[R4,FA4,AA4,o4,rr4],[R6,FA6,AA6,o6,rr6],[R7,FA7,AA7,o7,rr7])$ foxdet177812:determinant(fox177812)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177813:matrix([R2,FA2,AA2,o2,acac2],[R3,FA3,AA3,o3,acac3],[R4,FA4,AA4,o4,acac4],[R6,FA6,AA6,o6,acac6],[R7,FA7,AA7,o7,acac7])$ foxdet177813:determinant(fox177813)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177814:matrix([R2,FA2,AA2,o2,asas2],[R3,FA3,AA3,o3,asas3],[R4,FA4,AA4,o4,asas4],[R6,FA6,AA6,o6,asas6],[R7,FA7,AA7,o7,asas7])$ foxdet177814:determinant(fox177814)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177815:matrix([R2,FA2,AA2,o2,AfAf2],[R3,FA3,AA3,o3,AfAf3],[R4,FA4,AA4,o4,AfAf4],[R6,FA6,AA6,o6,AfAf6],[R7,FA7,AA7,o7,AfAf7])$ foxdet177815:determinant(fox177815)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177816:matrix([R2,FA2,AA2,o2,RrRr2],[R3,FA3,AA3,o3,RrRr3],[R4,FA4,AA4,o4,RrRr4],[R6,FA6,AA6,o6,RrRr6],[R7,FA7,AA7,o7,RrRr7])$ foxdet177816:determinant(fox177816)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177817:matrix([R2,FA2,AA2,o2,vv2],[R3,FA3,AA3,o3,vv3],[R4,FA4,AA4,o4,vv4],[R6,FA6,AA6,o6,vv6],[R7,FA7,AA7,o7,vv7])$ foxdet177817:determinant(fox177817)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177818:matrix([R2,FA2,AA2,f2,r2],[R3,FA3,AA3,f3,r3],[R4,FA4,AA4,f4,r4],[R6,FA6,AA6,f6,r6],[R7,FA7,AA7,f7,r7])$ foxdet177818:determinant(fox177818)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177819:matrix([R2,FA2,AA2,f2,ac2],[R3,FA3,AA3,f3,ac3],[R4,FA4,AA4,f4,ac4],[R6,FA6,AA6,f6,ac6],[R7,FA7,AA7,f7,ac7])$ foxdet177819:determinant(fox177819)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177820:matrix([R2,FA2,AA2,f2,as2],[R3,FA3,AA3,f3,as3],[R4,FA4,AA4,f4,as4],[R6,FA6,AA6,f6,as6],[R7,FA7,AA7,f7,as7])$ foxdet177820:determinant(fox177820)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177821:matrix([R2,FA2,AA2,f2,Af2],[R3,FA3,AA3,f3,Af3],[R4,FA4,AA4,f4,Af4],[R6,FA6,AA6,f6,Af6],[R7,FA7,AA7,f7,Af7])$ foxdet177821:determinant(fox177821)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177822:matrix([R2,FA2,AA2,f2,Rr2],[R3,FA3,AA3,f3,Rr3],[R4,FA4,AA4,f4,Rr4],[R6,FA6,AA6,f6,Rr6],[R7,FA7,AA7,f7,Rr7])$ foxdet177822:determinant(fox177822)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177823:matrix([R2,FA2,AA2,f2,v2],[R3,FA3,AA3,f3,v3],[R4,FA4,AA4,f4,v4],[R6,FA6,AA6,f6,v6],[R7,FA7,AA7,f7,v7])$ foxdet177823:determinant(fox177823)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177824:matrix([R2,FA2,AA2,f2,NUNU2],[R3,FA3,AA3,f3,NUNU3],[R4,FA4,AA4,f4,NUNU4],[R6,FA6,AA6,f6,NUNU6],[R7,FA7,AA7,f7,NUNU7])$ foxdet177824:determinant(fox177824)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177825:matrix([R2,FA2,AA2,f2,XUXU2],[R3,FA3,AA3,f3,XUXU3],[R4,FA4,AA4,f4,XUXU4],[R6,FA6,AA6,f6,XUXU6],[R7,FA7,AA7,f7,XUXU7])$ foxdet177825:determinant(fox177825)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177826:matrix([R2,FA2,AA2,f2,XRXR2],[R3,FA3,AA3,f3,XRXR3],[R4,FA4,AA4,f4,XRXR4],[R6,FA6,AA6,f6,XRXR6],[R7,FA7,AA7,f7,XRXR7])$ foxdet177826:determinant(fox177826)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177827:matrix([R2,FA2,AA2,f2,oo2],[R3,FA3,AA3,f3,oo3],[R4,FA4,AA4,f4,oo4],[R6,FA6,AA6,f6,oo6],[R7,FA7,AA7,f7,oo7])$ foxdet177827:determinant(fox177827)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177828:matrix([R2,FA2,AA2,f2,ff2],[R3,FA3,AA3,f3,ff3],[R4,FA4,AA4,f4,ff4],[R6,FA6,AA6,f6,ff6],[R7,FA7,AA7,f7,ff7])$ foxdet177828:determinant(fox177828)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177829:matrix([R2,FA2,AA2,f2,rr2],[R3,FA3,AA3,f3,rr3],[R4,FA4,AA4,f4,rr4],[R6,FA6,AA6,f6,rr6],[R7,FA7,AA7,f7,rr7])$ foxdet177829:determinant(fox177829)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177830:matrix([R2,FA2,AA2,f2,acac2],[R3,FA3,AA3,f3,acac3],[R4,FA4,AA4,f4,acac4],[R6,FA6,AA6,f6,acac6],[R7,FA7,AA7,f7,acac7])$ foxdet177830:determinant(fox177830)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177831:matrix([R2,FA2,AA2,f2,asas2],[R3,FA3,AA3,f3,asas3],[R4,FA4,AA4,f4,asas4],[R6,FA6,AA6,f6,asas6],[R7,FA7,AA7,f7,asas7])$ foxdet177831:determinant(fox177831)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177832:matrix([R2,FA2,AA2,f2,AfAf2],[R3,FA3,AA3,f3,AfAf3],[R4,FA4,AA4,f4,AfAf4],[R6,FA6,AA6,f6,AfAf6],[R7,FA7,AA7,f7,AfAf7])$ foxdet177832:determinant(fox177832)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177833:matrix([R2,FA2,AA2,f2,RrRr2],[R3,FA3,AA3,f3,RrRr3],[R4,FA4,AA4,f4,RrRr4],[R6,FA6,AA6,f6,RrRr6],[R7,FA7,AA7,f7,RrRr7])$ foxdet177833:determinant(fox177833)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177834:matrix([R2,FA2,AA2,f2,vv2],[R3,FA3,AA3,f3,vv3],[R4,FA4,AA4,f4,vv4],[R6,FA6,AA6,f6,vv6],[R7,FA7,AA7,f7,vv7])$ foxdet177834:determinant(fox177834)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177835:matrix([R2,FA2,AA2,r2,ac2],[R3,FA3,AA3,r3,ac3],[R4,FA4,AA4,r4,ac4],[R6,FA6,AA6,r6,ac6],[R7,FA7,AA7,r7,ac7])$ foxdet177835:determinant(fox177835)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177836:matrix([R2,FA2,AA2,r2,as2],[R3,FA3,AA3,r3,as3],[R4,FA4,AA4,r4,as4],[R6,FA6,AA6,r6,as6],[R7,FA7,AA7,r7,as7])$ foxdet177836:determinant(fox177836)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177837:matrix([R2,FA2,AA2,r2,Af2],[R3,FA3,AA3,r3,Af3],[R4,FA4,AA4,r4,Af4],[R6,FA6,AA6,r6,Af6],[R7,FA7,AA7,r7,Af7])$ foxdet177837:determinant(fox177837)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177838:matrix([R2,FA2,AA2,r2,Rr2],[R3,FA3,AA3,r3,Rr3],[R4,FA4,AA4,r4,Rr4],[R6,FA6,AA6,r6,Rr6],[R7,FA7,AA7,r7,Rr7])$ foxdet177838:determinant(fox177838)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177839:matrix([R2,FA2,AA2,r2,v2],[R3,FA3,AA3,r3,v3],[R4,FA4,AA4,r4,v4],[R6,FA6,AA6,r6,v6],[R7,FA7,AA7,r7,v7])$ foxdet177839:determinant(fox177839)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177840:matrix([R2,FA2,AA2,r2,NUNU2],[R3,FA3,AA3,r3,NUNU3],[R4,FA4,AA4,r4,NUNU4],[R6,FA6,AA6,r6,NUNU6],[R7,FA7,AA7,r7,NUNU7])$ foxdet177840:determinant(fox177840)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177841:matrix([R2,FA2,AA2,r2,XUXU2],[R3,FA3,AA3,r3,XUXU3],[R4,FA4,AA4,r4,XUXU4],[R6,FA6,AA6,r6,XUXU6],[R7,FA7,AA7,r7,XUXU7])$ foxdet177841:determinant(fox177841)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177842:matrix([R2,FA2,AA2,r2,XRXR2],[R3,FA3,AA3,r3,XRXR3],[R4,FA4,AA4,r4,XRXR4],[R6,FA6,AA6,r6,XRXR6],[R7,FA7,AA7,r7,XRXR7])$ foxdet177842:determinant(fox177842)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177843:matrix([R2,FA2,AA2,r2,oo2],[R3,FA3,AA3,r3,oo3],[R4,FA4,AA4,r4,oo4],[R6,FA6,AA6,r6,oo6],[R7,FA7,AA7,r7,oo7])$ foxdet177843:determinant(fox177843)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177844:matrix([R2,FA2,AA2,r2,ff2],[R3,FA3,AA3,r3,ff3],[R4,FA4,AA4,r4,ff4],[R6,FA6,AA6,r6,ff6],[R7,FA7,AA7,r7,ff7])$ foxdet177844:determinant(fox177844)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177845:matrix([R2,FA2,AA2,r2,rr2],[R3,FA3,AA3,r3,rr3],[R4,FA4,AA4,r4,rr4],[R6,FA6,AA6,r6,rr6],[R7,FA7,AA7,r7,rr7])$ foxdet177845:determinant(fox177845)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177846:matrix([R2,FA2,AA2,r2,acac2],[R3,FA3,AA3,r3,acac3],[R4,FA4,AA4,r4,acac4],[R6,FA6,AA6,r6,acac6],[R7,FA7,AA7,r7,acac7])$ foxdet177846:determinant(fox177846)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177847:matrix([R2,FA2,AA2,r2,asas2],[R3,FA3,AA3,r3,asas3],[R4,FA4,AA4,r4,asas4],[R6,FA6,AA6,r6,asas6],[R7,FA7,AA7,r7,asas7])$ foxdet177847:determinant(fox177847)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177848:matrix([R2,FA2,AA2,r2,AfAf2],[R3,FA3,AA3,r3,AfAf3],[R4,FA4,AA4,r4,AfAf4],[R6,FA6,AA6,r6,AfAf6],[R7,FA7,AA7,r7,AfAf7])$ foxdet177848:determinant(fox177848)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177849:matrix([R2,FA2,AA2,r2,RrRr2],[R3,FA3,AA3,r3,RrRr3],[R4,FA4,AA4,r4,RrRr4],[R6,FA6,AA6,r6,RrRr6],[R7,FA7,AA7,r7,RrRr7])$ foxdet177849:determinant(fox177849)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177850:matrix([R2,FA2,AA2,r2,vv2],[R3,FA3,AA3,r3,vv3],[R4,FA4,AA4,r4,vv4],[R6,FA6,AA6,r6,vv6],[R7,FA7,AA7,r7,vv7])$ foxdet177850:determinant(fox177850)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177851:matrix([R2,FA2,AA2,ac2,as2],[R3,FA3,AA3,ac3,as3],[R4,FA4,AA4,ac4,as4],[R6,FA6,AA6,ac6,as6],[R7,FA7,AA7,ac7,as7])$ foxdet177851:determinant(fox177851)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177852:matrix([R2,FA2,AA2,ac2,Af2],[R3,FA3,AA3,ac3,Af3],[R4,FA4,AA4,ac4,Af4],[R6,FA6,AA6,ac6,Af6],[R7,FA7,AA7,ac7,Af7])$ foxdet177852:determinant(fox177852)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177853:matrix([R2,FA2,AA2,ac2,Rr2],[R3,FA3,AA3,ac3,Rr3],[R4,FA4,AA4,ac4,Rr4],[R6,FA6,AA6,ac6,Rr6],[R7,FA7,AA7,ac7,Rr7])$ foxdet177853:determinant(fox177853)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177854:matrix([R2,FA2,AA2,ac2,v2],[R3,FA3,AA3,ac3,v3],[R4,FA4,AA4,ac4,v4],[R6,FA6,AA6,ac6,v6],[R7,FA7,AA7,ac7,v7])$ foxdet177854:determinant(fox177854)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177855:matrix([R2,FA2,AA2,ac2,NUNU2],[R3,FA3,AA3,ac3,NUNU3],[R4,FA4,AA4,ac4,NUNU4],[R6,FA6,AA6,ac6,NUNU6],[R7,FA7,AA7,ac7,NUNU7])$ foxdet177855:determinant(fox177855)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177856:matrix([R2,FA2,AA2,ac2,XUXU2],[R3,FA3,AA3,ac3,XUXU3],[R4,FA4,AA4,ac4,XUXU4],[R6,FA6,AA6,ac6,XUXU6],[R7,FA7,AA7,ac7,XUXU7])$ foxdet177856:determinant(fox177856)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177857:matrix([R2,FA2,AA2,ac2,XRXR2],[R3,FA3,AA3,ac3,XRXR3],[R4,FA4,AA4,ac4,XRXR4],[R6,FA6,AA6,ac6,XRXR6],[R7,FA7,AA7,ac7,XRXR7])$ foxdet177857:determinant(fox177857)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177858:matrix([R2,FA2,AA2,ac2,oo2],[R3,FA3,AA3,ac3,oo3],[R4,FA4,AA4,ac4,oo4],[R6,FA6,AA6,ac6,oo6],[R7,FA7,AA7,ac7,oo7])$ foxdet177858:determinant(fox177858)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177859:matrix([R2,FA2,AA2,ac2,ff2],[R3,FA3,AA3,ac3,ff3],[R4,FA4,AA4,ac4,ff4],[R6,FA6,AA6,ac6,ff6],[R7,FA7,AA7,ac7,ff7])$ foxdet177859:determinant(fox177859)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177860:matrix([R2,FA2,AA2,ac2,rr2],[R3,FA3,AA3,ac3,rr3],[R4,FA4,AA4,ac4,rr4],[R6,FA6,AA6,ac6,rr6],[R7,FA7,AA7,ac7,rr7])$ foxdet177860:determinant(fox177860)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177861:matrix([R2,FA2,AA2,ac2,acac2],[R3,FA3,AA3,ac3,acac3],[R4,FA4,AA4,ac4,acac4],[R6,FA6,AA6,ac6,acac6],[R7,FA7,AA7,ac7,acac7])$ foxdet177861:determinant(fox177861)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177862:matrix([R2,FA2,AA2,ac2,asas2],[R3,FA3,AA3,ac3,asas3],[R4,FA4,AA4,ac4,asas4],[R6,FA6,AA6,ac6,asas6],[R7,FA7,AA7,ac7,asas7])$ foxdet177862:determinant(fox177862)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177863:matrix([R2,FA2,AA2,ac2,AfAf2],[R3,FA3,AA3,ac3,AfAf3],[R4,FA4,AA4,ac4,AfAf4],[R6,FA6,AA6,ac6,AfAf6],[R7,FA7,AA7,ac7,AfAf7])$ foxdet177863:determinant(fox177863)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177864:matrix([R2,FA2,AA2,ac2,RrRr2],[R3,FA3,AA3,ac3,RrRr3],[R4,FA4,AA4,ac4,RrRr4],[R6,FA6,AA6,ac6,RrRr6],[R7,FA7,AA7,ac7,RrRr7])$ foxdet177864:determinant(fox177864)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177865:matrix([R2,FA2,AA2,ac2,vv2],[R3,FA3,AA3,ac3,vv3],[R4,FA4,AA4,ac4,vv4],[R6,FA6,AA6,ac6,vv6],[R7,FA7,AA7,ac7,vv7])$ foxdet177865:determinant(fox177865)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177866:matrix([R2,FA2,AA2,as2,Af2],[R3,FA3,AA3,as3,Af3],[R4,FA4,AA4,as4,Af4],[R6,FA6,AA6,as6,Af6],[R7,FA7,AA7,as7,Af7])$ foxdet177866:determinant(fox177866)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177867:matrix([R2,FA2,AA2,as2,Rr2],[R3,FA3,AA3,as3,Rr3],[R4,FA4,AA4,as4,Rr4],[R6,FA6,AA6,as6,Rr6],[R7,FA7,AA7,as7,Rr7])$ foxdet177867:determinant(fox177867)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177868:matrix([R2,FA2,AA2,as2,v2],[R3,FA3,AA3,as3,v3],[R4,FA4,AA4,as4,v4],[R6,FA6,AA6,as6,v6],[R7,FA7,AA7,as7,v7])$ foxdet177868:determinant(fox177868)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177869:matrix([R2,FA2,AA2,as2,NUNU2],[R3,FA3,AA3,as3,NUNU3],[R4,FA4,AA4,as4,NUNU4],[R6,FA6,AA6,as6,NUNU6],[R7,FA7,AA7,as7,NUNU7])$ foxdet177869:determinant(fox177869)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177870:matrix([R2,FA2,AA2,as2,XUXU2],[R3,FA3,AA3,as3,XUXU3],[R4,FA4,AA4,as4,XUXU4],[R6,FA6,AA6,as6,XUXU6],[R7,FA7,AA7,as7,XUXU7])$ foxdet177870:determinant(fox177870)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177871:matrix([R2,FA2,AA2,as2,XRXR2],[R3,FA3,AA3,as3,XRXR3],[R4,FA4,AA4,as4,XRXR4],[R6,FA6,AA6,as6,XRXR6],[R7,FA7,AA7,as7,XRXR7])$ foxdet177871:determinant(fox177871)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177872:matrix([R2,FA2,AA2,as2,oo2],[R3,FA3,AA3,as3,oo3],[R4,FA4,AA4,as4,oo4],[R6,FA6,AA6,as6,oo6],[R7,FA7,AA7,as7,oo7])$ foxdet177872:determinant(fox177872)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177873:matrix([R2,FA2,AA2,as2,ff2],[R3,FA3,AA3,as3,ff3],[R4,FA4,AA4,as4,ff4],[R6,FA6,AA6,as6,ff6],[R7,FA7,AA7,as7,ff7])$ foxdet177873:determinant(fox177873)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177874:matrix([R2,FA2,AA2,as2,rr2],[R3,FA3,AA3,as3,rr3],[R4,FA4,AA4,as4,rr4],[R6,FA6,AA6,as6,rr6],[R7,FA7,AA7,as7,rr7])$ foxdet177874:determinant(fox177874)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177875:matrix([R2,FA2,AA2,as2,acac2],[R3,FA3,AA3,as3,acac3],[R4,FA4,AA4,as4,acac4],[R6,FA6,AA6,as6,acac6],[R7,FA7,AA7,as7,acac7])$ foxdet177875:determinant(fox177875)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177876:matrix([R2,FA2,AA2,as2,asas2],[R3,FA3,AA3,as3,asas3],[R4,FA4,AA4,as4,asas4],[R6,FA6,AA6,as6,asas6],[R7,FA7,AA7,as7,asas7])$ foxdet177876:determinant(fox177876)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177877:matrix([R2,FA2,AA2,as2,AfAf2],[R3,FA3,AA3,as3,AfAf3],[R4,FA4,AA4,as4,AfAf4],[R6,FA6,AA6,as6,AfAf6],[R7,FA7,AA7,as7,AfAf7])$ foxdet177877:determinant(fox177877)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177878:matrix([R2,FA2,AA2,as2,RrRr2],[R3,FA3,AA3,as3,RrRr3],[R4,FA4,AA4,as4,RrRr4],[R6,FA6,AA6,as6,RrRr6],[R7,FA7,AA7,as7,RrRr7])$ foxdet177878:determinant(fox177878)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177879:matrix([R2,FA2,AA2,as2,vv2],[R3,FA3,AA3,as3,vv3],[R4,FA4,AA4,as4,vv4],[R6,FA6,AA6,as6,vv6],[R7,FA7,AA7,as7,vv7])$ foxdet177879:determinant(fox177879)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177880:matrix([R2,FA2,AA2,Af2,Rr2],[R3,FA3,AA3,Af3,Rr3],[R4,FA4,AA4,Af4,Rr4],[R6,FA6,AA6,Af6,Rr6],[R7,FA7,AA7,Af7,Rr7])$ foxdet177880:determinant(fox177880)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177881:matrix([R2,FA2,AA2,Af2,v2],[R3,FA3,AA3,Af3,v3],[R4,FA4,AA4,Af4,v4],[R6,FA6,AA6,Af6,v6],[R7,FA7,AA7,Af7,v7])$ foxdet177881:determinant(fox177881)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177882:matrix([R2,FA2,AA2,Af2,NUNU2],[R3,FA3,AA3,Af3,NUNU3],[R4,FA4,AA4,Af4,NUNU4],[R6,FA6,AA6,Af6,NUNU6],[R7,FA7,AA7,Af7,NUNU7])$ foxdet177882:determinant(fox177882)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177883:matrix([R2,FA2,AA2,Af2,XUXU2],[R3,FA3,AA3,Af3,XUXU3],[R4,FA4,AA4,Af4,XUXU4],[R6,FA6,AA6,Af6,XUXU6],[R7,FA7,AA7,Af7,XUXU7])$ foxdet177883:determinant(fox177883)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177884:matrix([R2,FA2,AA2,Af2,XRXR2],[R3,FA3,AA3,Af3,XRXR3],[R4,FA4,AA4,Af4,XRXR4],[R6,FA6,AA6,Af6,XRXR6],[R7,FA7,AA7,Af7,XRXR7])$ foxdet177884:determinant(fox177884)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177885:matrix([R2,FA2,AA2,Af2,oo2],[R3,FA3,AA3,Af3,oo3],[R4,FA4,AA4,Af4,oo4],[R6,FA6,AA6,Af6,oo6],[R7,FA7,AA7,Af7,oo7])$ foxdet177885:determinant(fox177885)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177886:matrix([R2,FA2,AA2,Af2,ff2],[R3,FA3,AA3,Af3,ff3],[R4,FA4,AA4,Af4,ff4],[R6,FA6,AA6,Af6,ff6],[R7,FA7,AA7,Af7,ff7])$ foxdet177886:determinant(fox177886)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177887:matrix([R2,FA2,AA2,Af2,rr2],[R3,FA3,AA3,Af3,rr3],[R4,FA4,AA4,Af4,rr4],[R6,FA6,AA6,Af6,rr6],[R7,FA7,AA7,Af7,rr7])$ foxdet177887:determinant(fox177887)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177888:matrix([R2,FA2,AA2,Af2,acac2],[R3,FA3,AA3,Af3,acac3],[R4,FA4,AA4,Af4,acac4],[R6,FA6,AA6,Af6,acac6],[R7,FA7,AA7,Af7,acac7])$ foxdet177888:determinant(fox177888)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177889:matrix([R2,FA2,AA2,Af2,asas2],[R3,FA3,AA3,Af3,asas3],[R4,FA4,AA4,Af4,asas4],[R6,FA6,AA6,Af6,asas6],[R7,FA7,AA7,Af7,asas7])$ foxdet177889:determinant(fox177889)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177890:matrix([R2,FA2,AA2,Af2,AfAf2],[R3,FA3,AA3,Af3,AfAf3],[R4,FA4,AA4,Af4,AfAf4],[R6,FA6,AA6,Af6,AfAf6],[R7,FA7,AA7,Af7,AfAf7])$ foxdet177890:determinant(fox177890)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177891:matrix([R2,FA2,AA2,Af2,RrRr2],[R3,FA3,AA3,Af3,RrRr3],[R4,FA4,AA4,Af4,RrRr4],[R6,FA6,AA6,Af6,RrRr6],[R7,FA7,AA7,Af7,RrRr7])$ foxdet177891:determinant(fox177891)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177892:matrix([R2,FA2,AA2,Af2,vv2],[R3,FA3,AA3,Af3,vv3],[R4,FA4,AA4,Af4,vv4],[R6,FA6,AA6,Af6,vv6],[R7,FA7,AA7,Af7,vv7])$ foxdet177892:determinant(fox177892)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177893:matrix([R2,FA2,AA2,Rr2,v2],[R3,FA3,AA3,Rr3,v3],[R4,FA4,AA4,Rr4,v4],[R6,FA6,AA6,Rr6,v6],[R7,FA7,AA7,Rr7,v7])$ foxdet177893:determinant(fox177893)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177894:matrix([R2,FA2,AA2,Rr2,NUNU2],[R3,FA3,AA3,Rr3,NUNU3],[R4,FA4,AA4,Rr4,NUNU4],[R6,FA6,AA6,Rr6,NUNU6],[R7,FA7,AA7,Rr7,NUNU7])$ foxdet177894:determinant(fox177894)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177895:matrix([R2,FA2,AA2,Rr2,XUXU2],[R3,FA3,AA3,Rr3,XUXU3],[R4,FA4,AA4,Rr4,XUXU4],[R6,FA6,AA6,Rr6,XUXU6],[R7,FA7,AA7,Rr7,XUXU7])$ foxdet177895:determinant(fox177895)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177896:matrix([R2,FA2,AA2,Rr2,XRXR2],[R3,FA3,AA3,Rr3,XRXR3],[R4,FA4,AA4,Rr4,XRXR4],[R6,FA6,AA6,Rr6,XRXR6],[R7,FA7,AA7,Rr7,XRXR7])$ foxdet177896:determinant(fox177896)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177897:matrix([R2,FA2,AA2,Rr2,oo2],[R3,FA3,AA3,Rr3,oo3],[R4,FA4,AA4,Rr4,oo4],[R6,FA6,AA6,Rr6,oo6],[R7,FA7,AA7,Rr7,oo7])$ foxdet177897:determinant(fox177897)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177898:matrix([R2,FA2,AA2,Rr2,ff2],[R3,FA3,AA3,Rr3,ff3],[R4,FA4,AA4,Rr4,ff4],[R6,FA6,AA6,Rr6,ff6],[R7,FA7,AA7,Rr7,ff7])$ foxdet177898:determinant(fox177898)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177899:matrix([R2,FA2,AA2,Rr2,rr2],[R3,FA3,AA3,Rr3,rr3],[R4,FA4,AA4,Rr4,rr4],[R6,FA6,AA6,Rr6,rr6],[R7,FA7,AA7,Rr7,rr7])$ foxdet177899:determinant(fox177899)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177900:matrix([R2,FA2,AA2,Rr2,acac2],[R3,FA3,AA3,Rr3,acac3],[R4,FA4,AA4,Rr4,acac4],[R6,FA6,AA6,Rr6,acac6],[R7,FA7,AA7,Rr7,acac7])$ foxdet177900:determinant(fox177900)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177901:matrix([R2,FA2,AA2,Rr2,asas2],[R3,FA3,AA3,Rr3,asas3],[R4,FA4,AA4,Rr4,asas4],[R6,FA6,AA6,Rr6,asas6],[R7,FA7,AA7,Rr7,asas7])$ foxdet177901:determinant(fox177901)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177902:matrix([R2,FA2,AA2,Rr2,AfAf2],[R3,FA3,AA3,Rr3,AfAf3],[R4,FA4,AA4,Rr4,AfAf4],[R6,FA6,AA6,Rr6,AfAf6],[R7,FA7,AA7,Rr7,AfAf7])$ foxdet177902:determinant(fox177902)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177903:matrix([R2,FA2,AA2,Rr2,RrRr2],[R3,FA3,AA3,Rr3,RrRr3],[R4,FA4,AA4,Rr4,RrRr4],[R6,FA6,AA6,Rr6,RrRr6],[R7,FA7,AA7,Rr7,RrRr7])$ foxdet177903:determinant(fox177903)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177904:matrix([R2,FA2,AA2,Rr2,vv2],[R3,FA3,AA3,Rr3,vv3],[R4,FA4,AA4,Rr4,vv4],[R6,FA6,AA6,Rr6,vv6],[R7,FA7,AA7,Rr7,vv7])$ foxdet177904:determinant(fox177904)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177905:matrix([R2,FA2,AA2,v2,NUNU2],[R3,FA3,AA3,v3,NUNU3],[R4,FA4,AA4,v4,NUNU4],[R6,FA6,AA6,v6,NUNU6],[R7,FA7,AA7,v7,NUNU7])$ foxdet177905:determinant(fox177905)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177906:matrix([R2,FA2,AA2,v2,XUXU2],[R3,FA3,AA3,v3,XUXU3],[R4,FA4,AA4,v4,XUXU4],[R6,FA6,AA6,v6,XUXU6],[R7,FA7,AA7,v7,XUXU7])$ foxdet177906:determinant(fox177906)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177907:matrix([R2,FA2,AA2,v2,XRXR2],[R3,FA3,AA3,v3,XRXR3],[R4,FA4,AA4,v4,XRXR4],[R6,FA6,AA6,v6,XRXR6],[R7,FA7,AA7,v7,XRXR7])$ foxdet177907:determinant(fox177907)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177908:matrix([R2,FA2,AA2,v2,oo2],[R3,FA3,AA3,v3,oo3],[R4,FA4,AA4,v4,oo4],[R6,FA6,AA6,v6,oo6],[R7,FA7,AA7,v7,oo7])$ foxdet177908:determinant(fox177908)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177909:matrix([R2,FA2,AA2,v2,ff2],[R3,FA3,AA3,v3,ff3],[R4,FA4,AA4,v4,ff4],[R6,FA6,AA6,v6,ff6],[R7,FA7,AA7,v7,ff7])$ foxdet177909:determinant(fox177909)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177910:matrix([R2,FA2,AA2,v2,rr2],[R3,FA3,AA3,v3,rr3],[R4,FA4,AA4,v4,rr4],[R6,FA6,AA6,v6,rr6],[R7,FA7,AA7,v7,rr7])$ foxdet177910:determinant(fox177910)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177911:matrix([R2,FA2,AA2,v2,acac2],[R3,FA3,AA3,v3,acac3],[R4,FA4,AA4,v4,acac4],[R6,FA6,AA6,v6,acac6],[R7,FA7,AA7,v7,acac7])$ foxdet177911:determinant(fox177911)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177912:matrix([R2,FA2,AA2,v2,asas2],[R3,FA3,AA3,v3,asas3],[R4,FA4,AA4,v4,asas4],[R6,FA6,AA6,v6,asas6],[R7,FA7,AA7,v7,asas7])$ foxdet177912:determinant(fox177912)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177913:matrix([R2,FA2,AA2,v2,AfAf2],[R3,FA3,AA3,v3,AfAf3],[R4,FA4,AA4,v4,AfAf4],[R6,FA6,AA6,v6,AfAf6],[R7,FA7,AA7,v7,AfAf7])$ foxdet177913:determinant(fox177913)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177914:matrix([R2,FA2,AA2,v2,RrRr2],[R3,FA3,AA3,v3,RrRr3],[R4,FA4,AA4,v4,RrRr4],[R6,FA6,AA6,v6,RrRr6],[R7,FA7,AA7,v7,RrRr7])$ foxdet177914:determinant(fox177914)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177915:matrix([R2,FA2,AA2,v2,vv2],[R3,FA3,AA3,v3,vv3],[R4,FA4,AA4,v4,vv4],[R6,FA6,AA6,v6,vv6],[R7,FA7,AA7,v7,vv7])$ foxdet177915:determinant(fox177915)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177916:matrix([R2,FA2,AA2,NUNU2,XUXU2],[R3,FA3,AA3,NUNU3,XUXU3],[R4,FA4,AA4,NUNU4,XUXU4],[R6,FA6,AA6,NUNU6,XUXU6],[R7,FA7,AA7,NUNU7,XUXU7])$ foxdet177916:determinant(fox177916)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177917:matrix([R2,FA2,AA2,NUNU2,XRXR2],[R3,FA3,AA3,NUNU3,XRXR3],[R4,FA4,AA4,NUNU4,XRXR4],[R6,FA6,AA6,NUNU6,XRXR6],[R7,FA7,AA7,NUNU7,XRXR7])$ foxdet177917:determinant(fox177917)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177918:matrix([R2,FA2,AA2,NUNU2,oo2],[R3,FA3,AA3,NUNU3,oo3],[R4,FA4,AA4,NUNU4,oo4],[R6,FA6,AA6,NUNU6,oo6],[R7,FA7,AA7,NUNU7,oo7])$ foxdet177918:determinant(fox177918)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177919:matrix([R2,FA2,AA2,NUNU2,ff2],[R3,FA3,AA3,NUNU3,ff3],[R4,FA4,AA4,NUNU4,ff4],[R6,FA6,AA6,NUNU6,ff6],[R7,FA7,AA7,NUNU7,ff7])$ foxdet177919:determinant(fox177919)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177920:matrix([R2,FA2,AA2,NUNU2,rr2],[R3,FA3,AA3,NUNU3,rr3],[R4,FA4,AA4,NUNU4,rr4],[R6,FA6,AA6,NUNU6,rr6],[R7,FA7,AA7,NUNU7,rr7])$ foxdet177920:determinant(fox177920)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177921:matrix([R2,FA2,AA2,NUNU2,acac2],[R3,FA3,AA3,NUNU3,acac3],[R4,FA4,AA4,NUNU4,acac4],[R6,FA6,AA6,NUNU6,acac6],[R7,FA7,AA7,NUNU7,acac7])$ foxdet177921:determinant(fox177921)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177922:matrix([R2,FA2,AA2,NUNU2,asas2],[R3,FA3,AA3,NUNU3,asas3],[R4,FA4,AA4,NUNU4,asas4],[R6,FA6,AA6,NUNU6,asas6],[R7,FA7,AA7,NUNU7,asas7])$ foxdet177922:determinant(fox177922)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177923:matrix([R2,FA2,AA2,NUNU2,AfAf2],[R3,FA3,AA3,NUNU3,AfAf3],[R4,FA4,AA4,NUNU4,AfAf4],[R6,FA6,AA6,NUNU6,AfAf6],[R7,FA7,AA7,NUNU7,AfAf7])$ foxdet177923:determinant(fox177923)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177924:matrix([R2,FA2,AA2,NUNU2,RrRr2],[R3,FA3,AA3,NUNU3,RrRr3],[R4,FA4,AA4,NUNU4,RrRr4],[R6,FA6,AA6,NUNU6,RrRr6],[R7,FA7,AA7,NUNU7,RrRr7])$ foxdet177924:determinant(fox177924)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177925:matrix([R2,FA2,AA2,NUNU2,vv2],[R3,FA3,AA3,NUNU3,vv3],[R4,FA4,AA4,NUNU4,vv4],[R6,FA6,AA6,NUNU6,vv6],[R7,FA7,AA7,NUNU7,vv7])$ foxdet177925:determinant(fox177925)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177926:matrix([R2,FA2,AA2,XUXU2,XRXR2],[R3,FA3,AA3,XUXU3,XRXR3],[R4,FA4,AA4,XUXU4,XRXR4],[R6,FA6,AA6,XUXU6,XRXR6],[R7,FA7,AA7,XUXU7,XRXR7])$ foxdet177926:determinant(fox177926)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177927:matrix([R2,FA2,AA2,XUXU2,oo2],[R3,FA3,AA3,XUXU3,oo3],[R4,FA4,AA4,XUXU4,oo4],[R6,FA6,AA6,XUXU6,oo6],[R7,FA7,AA7,XUXU7,oo7])$ foxdet177927:determinant(fox177927)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177928:matrix([R2,FA2,AA2,XUXU2,ff2],[R3,FA3,AA3,XUXU3,ff3],[R4,FA4,AA4,XUXU4,ff4],[R6,FA6,AA6,XUXU6,ff6],[R7,FA7,AA7,XUXU7,ff7])$ foxdet177928:determinant(fox177928)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177929:matrix([R2,FA2,AA2,XUXU2,rr2],[R3,FA3,AA3,XUXU3,rr3],[R4,FA4,AA4,XUXU4,rr4],[R6,FA6,AA6,XUXU6,rr6],[R7,FA7,AA7,XUXU7,rr7])$ foxdet177929:determinant(fox177929)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177930:matrix([R2,FA2,AA2,XUXU2,acac2],[R3,FA3,AA3,XUXU3,acac3],[R4,FA4,AA4,XUXU4,acac4],[R6,FA6,AA6,XUXU6,acac6],[R7,FA7,AA7,XUXU7,acac7])$ foxdet177930:determinant(fox177930)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177931:matrix([R2,FA2,AA2,XUXU2,asas2],[R3,FA3,AA3,XUXU3,asas3],[R4,FA4,AA4,XUXU4,asas4],[R6,FA6,AA6,XUXU6,asas6],[R7,FA7,AA7,XUXU7,asas7])$ foxdet177931:determinant(fox177931)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177932:matrix([R2,FA2,AA2,XUXU2,AfAf2],[R3,FA3,AA3,XUXU3,AfAf3],[R4,FA4,AA4,XUXU4,AfAf4],[R6,FA6,AA6,XUXU6,AfAf6],[R7,FA7,AA7,XUXU7,AfAf7])$ foxdet177932:determinant(fox177932)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177933:matrix([R2,FA2,AA2,XUXU2,RrRr2],[R3,FA3,AA3,XUXU3,RrRr3],[R4,FA4,AA4,XUXU4,RrRr4],[R6,FA6,AA6,XUXU6,RrRr6],[R7,FA7,AA7,XUXU7,RrRr7])$ foxdet177933:determinant(fox177933)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177934:matrix([R2,FA2,AA2,XUXU2,vv2],[R3,FA3,AA3,XUXU3,vv3],[R4,FA4,AA4,XUXU4,vv4],[R6,FA6,AA6,XUXU6,vv6],[R7,FA7,AA7,XUXU7,vv7])$ foxdet177934:determinant(fox177934)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177935:matrix([R2,FA2,AA2,XRXR2,oo2],[R3,FA3,AA3,XRXR3,oo3],[R4,FA4,AA4,XRXR4,oo4],[R6,FA6,AA6,XRXR6,oo6],[R7,FA7,AA7,XRXR7,oo7])$ foxdet177935:determinant(fox177935)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177936:matrix([R2,FA2,AA2,XRXR2,ff2],[R3,FA3,AA3,XRXR3,ff3],[R4,FA4,AA4,XRXR4,ff4],[R6,FA6,AA6,XRXR6,ff6],[R7,FA7,AA7,XRXR7,ff7])$ foxdet177936:determinant(fox177936)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177937:matrix([R2,FA2,AA2,XRXR2,rr2],[R3,FA3,AA3,XRXR3,rr3],[R4,FA4,AA4,XRXR4,rr4],[R6,FA6,AA6,XRXR6,rr6],[R7,FA7,AA7,XRXR7,rr7])$ foxdet177937:determinant(fox177937)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177938:matrix([R2,FA2,AA2,XRXR2,acac2],[R3,FA3,AA3,XRXR3,acac3],[R4,FA4,AA4,XRXR4,acac4],[R6,FA6,AA6,XRXR6,acac6],[R7,FA7,AA7,XRXR7,acac7])$ foxdet177938:determinant(fox177938)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177939:matrix([R2,FA2,AA2,XRXR2,asas2],[R3,FA3,AA3,XRXR3,asas3],[R4,FA4,AA4,XRXR4,asas4],[R6,FA6,AA6,XRXR6,asas6],[R7,FA7,AA7,XRXR7,asas7])$ foxdet177939:determinant(fox177939)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177940:matrix([R2,FA2,AA2,XRXR2,AfAf2],[R3,FA3,AA3,XRXR3,AfAf3],[R4,FA4,AA4,XRXR4,AfAf4],[R6,FA6,AA6,XRXR6,AfAf6],[R7,FA7,AA7,XRXR7,AfAf7])$ foxdet177940:determinant(fox177940)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177941:matrix([R2,FA2,AA2,XRXR2,RrRr2],[R3,FA3,AA3,XRXR3,RrRr3],[R4,FA4,AA4,XRXR4,RrRr4],[R6,FA6,AA6,XRXR6,RrRr6],[R7,FA7,AA7,XRXR7,RrRr7])$ foxdet177941:determinant(fox177941)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177942:matrix([R2,FA2,AA2,XRXR2,vv2],[R3,FA3,AA3,XRXR3,vv3],[R4,FA4,AA4,XRXR4,vv4],[R6,FA6,AA6,XRXR6,vv6],[R7,FA7,AA7,XRXR7,vv7])$ foxdet177942:determinant(fox177942)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177943:matrix([R2,FA2,AA2,oo2,ff2],[R3,FA3,AA3,oo3,ff3],[R4,FA4,AA4,oo4,ff4],[R6,FA6,AA6,oo6,ff6],[R7,FA7,AA7,oo7,ff7])$ foxdet177943:determinant(fox177943)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177944:matrix([R2,FA2,AA2,oo2,rr2],[R3,FA3,AA3,oo3,rr3],[R4,FA4,AA4,oo4,rr4],[R6,FA6,AA6,oo6,rr6],[R7,FA7,AA7,oo7,rr7])$ foxdet177944:determinant(fox177944)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177945:matrix([R2,FA2,AA2,oo2,acac2],[R3,FA3,AA3,oo3,acac3],[R4,FA4,AA4,oo4,acac4],[R6,FA6,AA6,oo6,acac6],[R7,FA7,AA7,oo7,acac7])$ foxdet177945:determinant(fox177945)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177946:matrix([R2,FA2,AA2,oo2,asas2],[R3,FA3,AA3,oo3,asas3],[R4,FA4,AA4,oo4,asas4],[R6,FA6,AA6,oo6,asas6],[R7,FA7,AA7,oo7,asas7])$ foxdet177946:determinant(fox177946)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177947:matrix([R2,FA2,AA2,oo2,AfAf2],[R3,FA3,AA3,oo3,AfAf3],[R4,FA4,AA4,oo4,AfAf4],[R6,FA6,AA6,oo6,AfAf6],[R7,FA7,AA7,oo7,AfAf7])$ foxdet177947:determinant(fox177947)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177948:matrix([R2,FA2,AA2,oo2,RrRr2],[R3,FA3,AA3,oo3,RrRr3],[R4,FA4,AA4,oo4,RrRr4],[R6,FA6,AA6,oo6,RrRr6],[R7,FA7,AA7,oo7,RrRr7])$ foxdet177948:determinant(fox177948)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177949:matrix([R2,FA2,AA2,oo2,vv2],[R3,FA3,AA3,oo3,vv3],[R4,FA4,AA4,oo4,vv4],[R6,FA6,AA6,oo6,vv6],[R7,FA7,AA7,oo7,vv7])$ foxdet177949:determinant(fox177949)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177950:matrix([R2,FA2,AA2,ff2,rr2],[R3,FA3,AA3,ff3,rr3],[R4,FA4,AA4,ff4,rr4],[R6,FA6,AA6,ff6,rr6],[R7,FA7,AA7,ff7,rr7])$ foxdet177950:determinant(fox177950)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177951:matrix([R2,FA2,AA2,ff2,acac2],[R3,FA3,AA3,ff3,acac3],[R4,FA4,AA4,ff4,acac4],[R6,FA6,AA6,ff6,acac6],[R7,FA7,AA7,ff7,acac7])$ foxdet177951:determinant(fox177951)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177952:matrix([R2,FA2,AA2,ff2,asas2],[R3,FA3,AA3,ff3,asas3],[R4,FA4,AA4,ff4,asas4],[R6,FA6,AA6,ff6,asas6],[R7,FA7,AA7,ff7,asas7])$ foxdet177952:determinant(fox177952)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177953:matrix([R2,FA2,AA2,ff2,AfAf2],[R3,FA3,AA3,ff3,AfAf3],[R4,FA4,AA4,ff4,AfAf4],[R6,FA6,AA6,ff6,AfAf6],[R7,FA7,AA7,ff7,AfAf7])$ foxdet177953:determinant(fox177953)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177954:matrix([R2,FA2,AA2,ff2,RrRr2],[R3,FA3,AA3,ff3,RrRr3],[R4,FA4,AA4,ff4,RrRr4],[R6,FA6,AA6,ff6,RrRr6],[R7,FA7,AA7,ff7,RrRr7])$ foxdet177954:determinant(fox177954)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177955:matrix([R2,FA2,AA2,ff2,vv2],[R3,FA3,AA3,ff3,vv3],[R4,FA4,AA4,ff4,vv4],[R6,FA6,AA6,ff6,vv6],[R7,FA7,AA7,ff7,vv7])$ foxdet177955:determinant(fox177955)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177956:matrix([R2,FA2,AA2,rr2,acac2],[R3,FA3,AA3,rr3,acac3],[R4,FA4,AA4,rr4,acac4],[R6,FA6,AA6,rr6,acac6],[R7,FA7,AA7,rr7,acac7])$ foxdet177956:determinant(fox177956)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177957:matrix([R2,FA2,AA2,rr2,asas2],[R3,FA3,AA3,rr3,asas3],[R4,FA4,AA4,rr4,asas4],[R6,FA6,AA6,rr6,asas6],[R7,FA7,AA7,rr7,asas7])$ foxdet177957:determinant(fox177957)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177958:matrix([R2,FA2,AA2,rr2,AfAf2],[R3,FA3,AA3,rr3,AfAf3],[R4,FA4,AA4,rr4,AfAf4],[R6,FA6,AA6,rr6,AfAf6],[R7,FA7,AA7,rr7,AfAf7])$ foxdet177958:determinant(fox177958)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177959:matrix([R2,FA2,AA2,rr2,RrRr2],[R3,FA3,AA3,rr3,RrRr3],[R4,FA4,AA4,rr4,RrRr4],[R6,FA6,AA6,rr6,RrRr6],[R7,FA7,AA7,rr7,RrRr7])$ foxdet177959:determinant(fox177959)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177960:matrix([R2,FA2,AA2,rr2,vv2],[R3,FA3,AA3,rr3,vv3],[R4,FA4,AA4,rr4,vv4],[R6,FA6,AA6,rr6,vv6],[R7,FA7,AA7,rr7,vv7])$ foxdet177960:determinant(fox177960)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177961:matrix([R2,FA2,AA2,acac2,asas2],[R3,FA3,AA3,acac3,asas3],[R4,FA4,AA4,acac4,asas4],[R6,FA6,AA6,acac6,asas6],[R7,FA7,AA7,acac7,asas7])$ foxdet177961:determinant(fox177961)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177962:matrix([R2,FA2,AA2,acac2,AfAf2],[R3,FA3,AA3,acac3,AfAf3],[R4,FA4,AA4,acac4,AfAf4],[R6,FA6,AA6,acac6,AfAf6],[R7,FA7,AA7,acac7,AfAf7])$ foxdet177962:determinant(fox177962)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177963:matrix([R2,FA2,AA2,acac2,RrRr2],[R3,FA3,AA3,acac3,RrRr3],[R4,FA4,AA4,acac4,RrRr4],[R6,FA6,AA6,acac6,RrRr6],[R7,FA7,AA7,acac7,RrRr7])$ foxdet177963:determinant(fox177963)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177964:matrix([R2,FA2,AA2,acac2,vv2],[R3,FA3,AA3,acac3,vv3],[R4,FA4,AA4,acac4,vv4],[R6,FA6,AA6,acac6,vv6],[R7,FA7,AA7,acac7,vv7])$ foxdet177964:determinant(fox177964)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177965:matrix([R2,FA2,AA2,asas2,AfAf2],[R3,FA3,AA3,asas3,AfAf3],[R4,FA4,AA4,asas4,AfAf4],[R6,FA6,AA6,asas6,AfAf6],[R7,FA7,AA7,asas7,AfAf7])$ foxdet177965:determinant(fox177965)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177966:matrix([R2,FA2,AA2,asas2,RrRr2],[R3,FA3,AA3,asas3,RrRr3],[R4,FA4,AA4,asas4,RrRr4],[R6,FA6,AA6,asas6,RrRr6],[R7,FA7,AA7,asas7,RrRr7])$ foxdet177966:determinant(fox177966)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177967:matrix([R2,FA2,AA2,asas2,vv2],[R3,FA3,AA3,asas3,vv3],[R4,FA4,AA4,asas4,vv4],[R6,FA6,AA6,asas6,vv6],[R7,FA7,AA7,asas7,vv7])$ foxdet177967:determinant(fox177967)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177968:matrix([R2,FA2,AA2,AfAf2,RrRr2],[R3,FA3,AA3,AfAf3,RrRr3],[R4,FA4,AA4,AfAf4,RrRr4],[R6,FA6,AA6,AfAf6,RrRr6],[R7,FA7,AA7,AfAf7,RrRr7])$ foxdet177968:determinant(fox177968)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177969:matrix([R2,FA2,AA2,AfAf2,vv2],[R3,FA3,AA3,AfAf3,vv3],[R4,FA4,AA4,AfAf4,vv4],[R6,FA6,AA6,AfAf6,vv6],[R7,FA7,AA7,AfAf7,vv7])$ foxdet177969:determinant(fox177969)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177970:matrix([R2,FA2,AA2,RrRr2,vv2],[R3,FA3,AA3,RrRr3,vv3],[R4,FA4,AA4,RrRr4,vv4],[R6,FA6,AA6,RrRr6,vv6],[R7,FA7,AA7,RrRr7,vv7])$ foxdet177970:determinant(fox177970)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177971:matrix([R2,FA2,FAFA2,ACAC2,ASAS2],[R3,FA3,FAFA3,ACAC3,ASAS3],[R4,FA4,FAFA4,ACAC4,ASAS4],[R6,FA6,FAFA6,ACAC6,ASAS6],[R7,FA7,FAFA7,ACAC7,ASAS7])$ foxdet177971:determinant(fox177971)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177972:matrix([R2,FA2,FAFA2,ACAC2,ACASACAS2],[R3,FA3,FAFA3,ACAC3,ACASACAS3],[R4,FA4,FAFA4,ACAC4,ACASACAS4],[R6,FA6,FAFA6,ACAC6,ACASACAS6],[R7,FA7,FAFA7,ACAC7,ACASACAS7])$ foxdet177972:determinant(fox177972)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177973:matrix([R2,FA2,FAFA2,ACAC2,FACFAC2],[R3,FA3,FAFA3,ACAC3,FACFAC3],[R4,FA4,FAFA4,ACAC4,FACFAC4],[R6,FA6,FAFA6,ACAC6,FACFAC6],[R7,FA7,FAFA7,ACAC7,FACFAC7])$ foxdet177973:determinant(fox177973)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177974:matrix([R2,FA2,FAFA2,ACAC2,NU2],[R3,FA3,FAFA3,ACAC3,NU3],[R4,FA4,FAFA4,ACAC4,NU4],[R6,FA6,FAFA6,ACAC6,NU6],[R7,FA7,FAFA7,ACAC7,NU7])$ foxdet177974:determinant(fox177974)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177975:matrix([R2,FA2,FAFA2,ACAC2,XU2],[R3,FA3,FAFA3,ACAC3,XU3],[R4,FA4,FAFA4,ACAC4,XU4],[R6,FA6,FAFA6,ACAC6,XU6],[R7,FA7,FAFA7,ACAC7,XU7])$ foxdet177975:determinant(fox177975)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177976:matrix([R2,FA2,FAFA2,ACAC2,XR2],[R3,FA3,FAFA3,ACAC3,XR3],[R4,FA4,FAFA4,ACAC4,XR4],[R6,FA6,FAFA6,ACAC6,XR6],[R7,FA7,FAFA7,ACAC7,XR7])$ foxdet177976:determinant(fox177976)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177977:matrix([R2,FA2,FAFA2,ACAC2,o2],[R3,FA3,FAFA3,ACAC3,o3],[R4,FA4,FAFA4,ACAC4,o4],[R6,FA6,FAFA6,ACAC6,o6],[R7,FA7,FAFA7,ACAC7,o7])$ foxdet177977:determinant(fox177977)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177978:matrix([R2,FA2,FAFA2,ACAC2,f2],[R3,FA3,FAFA3,ACAC3,f3],[R4,FA4,FAFA4,ACAC4,f4],[R6,FA6,FAFA6,ACAC6,f6],[R7,FA7,FAFA7,ACAC7,f7])$ foxdet177978:determinant(fox177978)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177979:matrix([R2,FA2,FAFA2,ACAC2,r2],[R3,FA3,FAFA3,ACAC3,r3],[R4,FA4,FAFA4,ACAC4,r4],[R6,FA6,FAFA6,ACAC6,r6],[R7,FA7,FAFA7,ACAC7,r7])$ foxdet177979:determinant(fox177979)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177980:matrix([R2,FA2,FAFA2,ACAC2,ac2],[R3,FA3,FAFA3,ACAC3,ac3],[R4,FA4,FAFA4,ACAC4,ac4],[R6,FA6,FAFA6,ACAC6,ac6],[R7,FA7,FAFA7,ACAC7,ac7])$ foxdet177980:determinant(fox177980)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177981:matrix([R2,FA2,FAFA2,ACAC2,as2],[R3,FA3,FAFA3,ACAC3,as3],[R4,FA4,FAFA4,ACAC4,as4],[R6,FA6,FAFA6,ACAC6,as6],[R7,FA7,FAFA7,ACAC7,as7])$ foxdet177981:determinant(fox177981)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177982:matrix([R2,FA2,FAFA2,ACAC2,Af2],[R3,FA3,FAFA3,ACAC3,Af3],[R4,FA4,FAFA4,ACAC4,Af4],[R6,FA6,FAFA6,ACAC6,Af6],[R7,FA7,FAFA7,ACAC7,Af7])$ foxdet177982:determinant(fox177982)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177983:matrix([R2,FA2,FAFA2,ACAC2,Rr2],[R3,FA3,FAFA3,ACAC3,Rr3],[R4,FA4,FAFA4,ACAC4,Rr4],[R6,FA6,FAFA6,ACAC6,Rr6],[R7,FA7,FAFA7,ACAC7,Rr7])$ foxdet177983:determinant(fox177983)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177984:matrix([R2,FA2,FAFA2,ACAC2,v2],[R3,FA3,FAFA3,ACAC3,v3],[R4,FA4,FAFA4,ACAC4,v4],[R6,FA6,FAFA6,ACAC6,v6],[R7,FA7,FAFA7,ACAC7,v7])$ foxdet177984:determinant(fox177984)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177985:matrix([R2,FA2,FAFA2,ACAC2,NUNU2],[R3,FA3,FAFA3,ACAC3,NUNU3],[R4,FA4,FAFA4,ACAC4,NUNU4],[R6,FA6,FAFA6,ACAC6,NUNU6],[R7,FA7,FAFA7,ACAC7,NUNU7])$ foxdet177985:determinant(fox177985)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177986:matrix([R2,FA2,FAFA2,ACAC2,XUXU2],[R3,FA3,FAFA3,ACAC3,XUXU3],[R4,FA4,FAFA4,ACAC4,XUXU4],[R6,FA6,FAFA6,ACAC6,XUXU6],[R7,FA7,FAFA7,ACAC7,XUXU7])$ foxdet177986:determinant(fox177986)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177987:matrix([R2,FA2,FAFA2,ACAC2,XRXR2],[R3,FA3,FAFA3,ACAC3,XRXR3],[R4,FA4,FAFA4,ACAC4,XRXR4],[R6,FA6,FAFA6,ACAC6,XRXR6],[R7,FA7,FAFA7,ACAC7,XRXR7])$ foxdet177987:determinant(fox177987)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177988:matrix([R2,FA2,FAFA2,ACAC2,oo2],[R3,FA3,FAFA3,ACAC3,oo3],[R4,FA4,FAFA4,ACAC4,oo4],[R6,FA6,FAFA6,ACAC6,oo6],[R7,FA7,FAFA7,ACAC7,oo7])$ foxdet177988:determinant(fox177988)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177989:matrix([R2,FA2,FAFA2,ACAC2,ff2],[R3,FA3,FAFA3,ACAC3,ff3],[R4,FA4,FAFA4,ACAC4,ff4],[R6,FA6,FAFA6,ACAC6,ff6],[R7,FA7,FAFA7,ACAC7,ff7])$ foxdet177989:determinant(fox177989)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177990:matrix([R2,FA2,FAFA2,ACAC2,rr2],[R3,FA3,FAFA3,ACAC3,rr3],[R4,FA4,FAFA4,ACAC4,rr4],[R6,FA6,FAFA6,ACAC6,rr6],[R7,FA7,FAFA7,ACAC7,rr7])$ foxdet177990:determinant(fox177990)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177991:matrix([R2,FA2,FAFA2,ACAC2,acac2],[R3,FA3,FAFA3,ACAC3,acac3],[R4,FA4,FAFA4,ACAC4,acac4],[R6,FA6,FAFA6,ACAC6,acac6],[R7,FA7,FAFA7,ACAC7,acac7])$ foxdet177991:determinant(fox177991)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177992:matrix([R2,FA2,FAFA2,ACAC2,asas2],[R3,FA3,FAFA3,ACAC3,asas3],[R4,FA4,FAFA4,ACAC4,asas4],[R6,FA6,FAFA6,ACAC6,asas6],[R7,FA7,FAFA7,ACAC7,asas7])$ foxdet177992:determinant(fox177992)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177993:matrix([R2,FA2,FAFA2,ACAC2,AfAf2],[R3,FA3,FAFA3,ACAC3,AfAf3],[R4,FA4,FAFA4,ACAC4,AfAf4],[R6,FA6,FAFA6,ACAC6,AfAf6],[R7,FA7,FAFA7,ACAC7,AfAf7])$ foxdet177993:determinant(fox177993)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177994:matrix([R2,FA2,FAFA2,ACAC2,RrRr2],[R3,FA3,FAFA3,ACAC3,RrRr3],[R4,FA4,FAFA4,ACAC4,RrRr4],[R6,FA6,FAFA6,ACAC6,RrRr6],[R7,FA7,FAFA7,ACAC7,RrRr7])$ foxdet177994:determinant(fox177994)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177995:matrix([R2,FA2,FAFA2,ACAC2,vv2],[R3,FA3,FAFA3,ACAC3,vv3],[R4,FA4,FAFA4,ACAC4,vv4],[R6,FA6,FAFA6,ACAC6,vv6],[R7,FA7,FAFA7,ACAC7,vv7])$ foxdet177995:determinant(fox177995)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177996:matrix([R2,FA2,FAFA2,ASAS2,ACASACAS2],[R3,FA3,FAFA3,ASAS3,ACASACAS3],[R4,FA4,FAFA4,ASAS4,ACASACAS4],[R6,FA6,FAFA6,ASAS6,ACASACAS6],[R7,FA7,FAFA7,ASAS7,ACASACAS7])$ foxdet177996:determinant(fox177996)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177997:matrix([R2,FA2,FAFA2,ASAS2,FACFAC2],[R3,FA3,FAFA3,ASAS3,FACFAC3],[R4,FA4,FAFA4,ASAS4,FACFAC4],[R6,FA6,FAFA6,ASAS6,FACFAC6],[R7,FA7,FAFA7,ASAS7,FACFAC7])$ foxdet177997:determinant(fox177997)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177998:matrix([R2,FA2,FAFA2,ASAS2,NU2],[R3,FA3,FAFA3,ASAS3,NU3],[R4,FA4,FAFA4,ASAS4,NU4],[R6,FA6,FAFA6,ASAS6,NU6],[R7,FA7,FAFA7,ASAS7,NU7])$ foxdet177998:determinant(fox177998)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox177999:matrix([R2,FA2,FAFA2,ASAS2,XU2],[R3,FA3,FAFA3,ASAS3,XU3],[R4,FA4,FAFA4,ASAS4,XU4],[R6,FA6,FAFA6,ASAS6,XU6],[R7,FA7,FAFA7,ASAS7,XU7])$ foxdet177999:determinant(fox177999)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+fox178000:matrix([R2,FA2,FAFA2,ASAS2,XR2],[R3,FA3,FAFA3,ASAS3,XR3],[R4,FA4,FAFA4,ASAS4,XR4],[R6,FA6,FAFA6,ASAS6,XR6],[R7,FA7,FAFA7,ASAS7,XR7])$ foxdet178000:determinant(fox178000)$ ratsimp(%)$ solve(%,pi)$ float(%)$
+write_data([nomer, %], "output-176001-178000.txt")$ nomer:nomer+1$
+et : sconcat(round(float((absolute_real_time()-starttime)/60)) , " minutes");
+write_data(et, "output-176001-178000.txt");
