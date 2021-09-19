@@ -36,7 +36,7 @@ class MG:
             if not ignorthis:
                 mrow = []  # matrix row symbols name list
                 for i in range(1, k+1):
-                    mrow.append(nmassiv[c[i]]+str(iism))
+                    mrow.append(self.sg.sv[nmassiv[c[i]]+str(iism)])
                     if i < k:
                         pass
                     else:
