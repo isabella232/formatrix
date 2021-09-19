@@ -38,7 +38,7 @@ class MGAS:
 
     def runAll(self):
         print("test")
-        print(self.mg.sg.sv["OO2"])
+        print(self.mg.sg.sv["vv7"])
         print(self)
         print(self.input_n)
         print(self.mg.generateMatrices(
