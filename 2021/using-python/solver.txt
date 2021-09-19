@@ -1,0 +1,1 @@
+solve(mdet, pi, check=False, rational=None)
