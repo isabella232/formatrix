@@ -17,3 +17,4 @@ class MP:
 
     def globalCounterValue(self) -> int:
         os.listdir()
+        return 0
