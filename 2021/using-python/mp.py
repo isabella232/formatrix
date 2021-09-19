@@ -1,3 +1,6 @@
+import os
+
+
 class MP:
     """matrix printer"""
 
@@ -8,3 +11,9 @@ class MP:
         print("----"+str(m[0]))  # matrix number
         print(m[2])  # symbolic matrix
         print(solution)
+
+    def printToFile(self, m, solution):
+        """print result to file with matrix index"""
+
+    def globalCounterValue(self) -> int:
+        os.listdir()

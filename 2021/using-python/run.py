@@ -2,6 +2,8 @@ from mg import MG
 from ms import MS
 from mp import MP
 
+import time
+
 """trying calculate all in one flow without preparing every partion of matrices"""
 
 
@@ -40,12 +42,23 @@ class MGAS:
         self.ms = MS()
         self.mp = MP()
 
+        self.saveSize = 2
+        """how much matrices will calculated before save to file"""
+        self.sessionSize = 0
+        """how much calculated at present moment and not printed"""
+        self.globalInkrement = self.mp.globalCounterValue()
+
     def runAll(self):
         print("test")
         print(self.mg.sg.sv["P3"])
         print(type(self.mg.sg.sv["P3"]))
         print(self)
         print(self.input_n)
+
+        # calculation with pause between steps
+        while True:
+            time.sleep(2)
+
         mx = self.mg.generateMatrices(
             self.input_n, self.k, self.ignoriism, self.iism0, self.iism1, self.iism2, self.out1, self.out2
         )
