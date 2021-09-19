@@ -1,5 +1,6 @@
 from __future__ import division
 from sympy import Matrix
+from sg import SG
 
 
 class MG:
@@ -10,13 +11,14 @@ class MG:
                  iism0: list, iism1: int, iism2: int
                  ) -> None:
         self.c = []
-        self.nmassive = n
-        self.n = len(self.nmassive)-1
+        self.nmassiv = n
+        self.n = len(self.nmassiv)-1
         self.k = k
         self.ignoriism = ignoriism
         self.iism0 = iism0
         self.iism1 = iism1
         self.iism2 = iism2
+        self.sg = SG(self.n, 1)
 
     def generateMatrix(self, c: list, k, nmassiv: list, ignoriism, iism0, iism1, iism2) -> Matrix:
 
@@ -86,5 +88,3 @@ class MG:
                                         self.iism0, self.iism1, self.iism2)
                 )
         return matrices
-
-    # def debugM()

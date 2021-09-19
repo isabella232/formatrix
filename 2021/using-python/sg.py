@@ -60,6 +60,7 @@ class SG:
     FF = F * F
 
     def __init__(self, sn: list, R=1) -> None:
+        print("sg init")
         self.sn = ["pi", "R", "S", "P", "PS", "N", "RN", "O", "C", "OC", "F", "A", "FA", "AC", "AS", "ACAS", "FAC", "RR", "SS", "PP", "PSPS", "NN", "RNRN", "OO", "CC", "OCOC", "FF", "AA", "FAFA",
                    "ACAC", "ASAS", "ACASACAS", "FACFAC", "NU", "XU", "XR", "o", "f", "r", "ac", "as", "Af", "Rr", "v", "NUNU", "XUXU", "XRXR", "oo", "ff", "rr", "acac", "asas", "AfAf", "RrRr", "vv"]
         """symbol names"""
@@ -80,6 +81,7 @@ class SG:
             "FF2": self.FF, "FF3": self.FF, "FF4": self.FF, "FF6": self.FF, "FF7": self.FF
         }
 
+        # n2 polygon values
         self.sv["S2"] = 2*self.R
         self.sv["P2"] = 4*self.R
         self.sv["PS2"] = self.sv["P2"]-self.sv["S2"]
@@ -129,3 +131,5 @@ class SG:
         self.sv["AfAf2"] = self.sv["Af2"] ** 2
         self.sv["RrRr2"] = self.sv["Rr2"] ** 2
         self.sv["vv2"] = self.sv["v2"] ** 2
+
+        # n3 polygon values
