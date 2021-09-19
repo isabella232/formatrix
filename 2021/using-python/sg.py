@@ -73,6 +73,7 @@ class SG:
         self.FF = self.F * self.F
 
         self.sv = {
+            "pi": s.pi,
             "R2": self.R, "R3": self.R, "R4": self.R, "R6": self.R, "R7": self.R,
             "O2": self.O, "O3": self.O, "O4": self.O, "O6": self.O, "O7": self.O,
             "F2": self.F, "F3": self.F, "F4": self.F, "F6": self.F, "F7": self.F,

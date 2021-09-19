@@ -1,4 +1,6 @@
 from mg import MG
+from ms import MS
+from mp import MP
 
 """trying calculate all in one flow without preparing every partion of matrices"""
 
@@ -35,15 +37,24 @@ class MGAS:
             self.iism1,
             self.iism2
         )
+        self.ms = MS()
+        self.mp = MP()
 
     def runAll(self):
         print("test")
-        print(self.mg.sg.sv["vv7"])
+        print(self.mg.sg.sv["P3"])
+        print(type(self.mg.sg.sv["P3"]))
         print(self)
         print(self.input_n)
-        print(self.mg.generateMatrices(
+        mx = self.mg.generateMatrices(
             self.input_n, self.k, self.ignoriism, self.iism0, self.iism1, self.iism2, self.out1, self.out2
-        ))
+        )
+        print(mx)
+        print("-------------")
+        for m in mx:
+            solution = self.ms.solve_pi(m[1])
+            self.mp.printMatrix(m, solution)
+
         input("enter to close")
 
 
