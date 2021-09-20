@@ -20,6 +20,18 @@ class MG:
         self.iism2 = iism2
         self.sg = SG(self.n, 1)
 
+    def factorial(self, n):
+        if n == 0:
+            return 1
+        else:
+            return n * self.factorial(n - 1)
+
+    def summcount(self):
+        sumc = self.factorial(self.n) / self.factorial(self.k) / \
+            self.factorial(self.n - self.k)
+        print("original matrices number "+str(int(sumc)))
+        return sumc
+
     def generateMatrix(self, c: list, k, nmassiv: list, ignoriism, iism0, iism1, iism2) -> list:
 
         mdata = []
@@ -102,6 +114,6 @@ class MG:
                 mxd = []
                 mxd.append(inkrement)
                 mxd.append(bothMatrix[0])
-                mxd.append(bothMatrix[1])
+                mxd.append(bothMatrix[1])  # symbolic form matrix
                 matrices.append(mxd)
         return matrices
