@@ -5,7 +5,6 @@ from mp import MP
 import time
 import sys
 import os
-import math
 
 if getattr(sys, 'frozen', False):
     mydir = os.path.dirname(sys.executable)
@@ -53,19 +52,18 @@ class MGAS:
 
         self.ms = MS()
         self.mp = MP(self.mydir, self.k)
-
-        self.bestpi = self.mp.bestpiValue()
-        self.bestpi2 = self.mp.bestpi2Value()
-        self.bestpi12 = self.mp.bestpi12Value()
-
         self.calcSize = 1
         """how much matrices will calculated before time sleep, must be < saveSize"""
+        self.saveSize = 5
+        """how much matrices will calculated before save to file"""
         self.sessionSize = 0
         """how much calculated at present moment and not printed"""
         self.globalCounter = self.mp.globalCounterValue()
 
     def runAll(self):
 
+        solutionBox = []
+        saveChecker = 0
         self.globalCounter += 1
         calcChecker = self.globalCounter
         self.out1 = self.globalCounter
@@ -81,29 +79,13 @@ class MGAS:
 
                 for m in mx:
                     solution = self.ms.solve_pi(m[1])
-                    # pi check
-                    result = self.mp.findMax(
-                        solution, str(math.pi), self.bestpi[0])
-                    if (len(result) > len(self.bestpi[0])):
-                        self.bestpi = [result, m[0]]
-                        self.mp.refreshpiValue(result, m[0])
-
-                    # pi2 check
-                    result = self.mp.findMax(
-                        solution, str(math.pi**2), self.bestpi2[0])
-                    if (len(result) > len(self.bestpi2[0])):
-                        self.bestpi2 = [result, m[0]]
-                        self.mp.refreshpi2Value(result, m[0])
-
-                    # pi12 check
-                    result = self.mp.findMax(
-                        solution, str(math.pi**(1/2)), self.bestpi12[0])
-                    if (len(result) > len(self.bestpi12[0])):
-                        self.bestpi12 = [result, m[0]]
-                        self.mp.refreshpi12Value(result, m[0])
-
+                    solutionBox.append([*m, solution])
+                    saveChecker += 1
                     calcChecker += 1
-                self.mp.refreshGlobalCounterValue(m[0])
+                    if saveChecker >= self.saveSize or calcChecker == self.globalLimit:
+                        self.mp.printToFile(solutionBox)
+                        solutionBox = []
+                        saveChecker = 0
 
             except:
                 print(sys.exc_info())

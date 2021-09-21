@@ -7,6 +7,6 @@ class MS:
     def __init__(self) -> None:
         pass
 
-    def solve_pi(self, m) -> float:
+    def solve_pi(self, m) -> list:
         mdet = m.det()
         return s.solve(mdet, s.pi, check=False, rational=None)
