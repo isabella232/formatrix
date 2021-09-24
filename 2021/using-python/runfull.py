@@ -36,9 +36,9 @@ class MGAS:
         self.iism2 = 7
 
         # generate matrices from 1
-        self.out1 = 1
+        self.out1 = 55
         # generate matrices to 3
-        self.out2 = 3
+        self.out2 = 57
 
         self.mg = MG(
             self.input_n,

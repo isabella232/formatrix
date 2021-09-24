@@ -54,6 +54,10 @@ class MGAS:
         self.ms = MS()
         self.mp = MP(self.mydir, self.k)
 
+        self.checkpi = str(math.pi)
+        self.checkpi2 = str(math.pi**2)
+        self.checkpi12 = str(math.pi**(1/2))
+
         self.bestpi = self.mp.bestpiValue()
         self.bestpi2 = self.mp.bestpi2Value()
         self.bestpi12 = self.mp.bestpi12Value()
@@ -78,29 +82,54 @@ class MGAS:
                 mx = self.mg.generateMatrices(
                     self.input_n, self.k, self.ignoriism, self.iism0, self.iism1, self.iism2, self.out1, self.out2
                 )
-
+                needprint = False
                 for m in mx:
                     solution = self.ms.solve_pi(m[1])
                     # pi check
                     result = self.mp.findMax(
-                        solution, str(math.pi), self.bestpi[0])
+                        solution, self.checkpi, self.bestpi[0])
                     if (len(result) > len(self.bestpi[0])):
-                        self.bestpi = [result, m[0]]
+                        self.bestpi = [result, str(m[0])]
                         self.mp.refreshpiValue(result, m[0])
+                        needprint = True
+                    elif (len(result) == len(self.bestpi[0])):
+                        self.bestpi = [
+                            result, self.bestpi[1] + " " + str(m[0])]
+                        self.mp.updatepiValue(result, self.bestpi[1])
+                        needprint = True
 
                     # pi2 check
                     result = self.mp.findMax(
-                        solution, str(math.pi**2), self.bestpi2[0])
+                        solution, self.checkpi2, self.bestpi2[0])
                     if (len(result) > len(self.bestpi2[0])):
-                        self.bestpi2 = [result, m[0]]
+                        self.bestpi2 = [result, str(m[0])]
                         self.mp.refreshpi2Value(result, m[0])
+                        needprint = True
+                    elif (len(result) == len(self.bestpi2[0])):
+                        self.bestpi2 = [
+                            result, self.bestpi2[1] + " " + str(m[0])]
+                        self.mp.updatepi2Value(result, self.bestpi2[1])
+                        needprint = True
 
                     # pi12 check
                     result = self.mp.findMax(
-                        solution, str(math.pi**(1/2)), self.bestpi12[0])
+                        solution, self.checkpi12, self.bestpi12[0])
                     if (len(result) > len(self.bestpi12[0])):
-                        self.bestpi12 = [result, m[0]]
+                        self.bestpi12 = [result, str(m[0])]
                         self.mp.refreshpi12Value(result, m[0])
+                        needprint = True
+                    elif (len(result) == len(self.bestpi12[0])):
+                        self.bestpi12 = [
+                            result, self.bestpi12[1] + " " + str(m[0])]
+                        self.mp.updatepi12Value(result, self.bestpi12[1])
+                        needprint = True
+
+                    # print to console screen
+                    if needprint:
+                        print(str(m[0])+" "+str(solution))
+                        print(str(m[2]))
+                        print(" -"*10)
+                        needprint = False
 
                     calcChecker += 1
                 self.mp.refreshGlobalCounterValue(m[0])

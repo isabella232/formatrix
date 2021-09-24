@@ -117,3 +117,44 @@ class MG:
                 mxd.append(bothMatrix[1])  # symbolic form matrix
                 matrices.append(mxd)
         return matrices
+
+    def generatePrintedMatrices(self, n: list, k: int,
+                                ignoriism: bool,
+                                iism0: list, iism1: int, iism2: int,
+                                out1: int, out2: int
+                                ) -> list:
+        """dirty recode ot generateMatrices to print"""
+        self.c = [0]  # little cheat vs js early version
+        self.nmassiv = n
+        self.n = len(n)-1
+        self.k = k
+        self.ignoriism = ignoriism
+        self.iism0 = iism0
+        self.iism1 = iism1
+        self.iism2 = iism2
+
+        matrices = []
+        """each element is [number, matrix, symbol matrix]"""
+
+        for i in range(1, k+1):
+            self.c.append(i)
+        inkrement = out1
+        while inkrement >= out1 and inkrement <= out2:
+            i = self.k
+            while self.c[i] + self.k - i + 1 > self.n:
+                i -= 1
+            self.c[i] += 1
+            for j in range(i+1, self.k+1):
+                self.c[j] = self.c[j-1]+1
+            inkrement += 1
+            if inkrement >= out1 and inkrement <= out2:
+                bothMatrix = self.generateMatrix(self.c, self.k, self.nmassiv,
+                                                 self.ignoriism,
+                                                 self.iism0, self.iism1, self.iism2)
+                mxd = []
+                mxd.append(inkrement)
+                mxd.append(bothMatrix[0])
+                mxd.append(bothMatrix[1])  # symbolic form matrix
+                matrices.append(mxd)
+            inkrement += 1
+        return matrices

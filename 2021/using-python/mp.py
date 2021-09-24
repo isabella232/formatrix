@@ -159,15 +159,51 @@ class MP:
 
         print("refreshed bestpi12 "+gcv+" "+mnumber)
 
+    def updatepiValue(self, value, mnumber):
+        # update globalCounterValue
+        gcfDir = self.resultDir + os.sep + "bestpi.txt"
+        gcv = str(value)
+        mnumber = str(mnumber)
+        gcFile = open(gcfDir, mode="wt", encoding="utf-8")
+        gcFile.write(gcv + " " + mnumber)
+        gcFile.close()
+
+        print("updated bestpi "+gcv+" "+mnumber)
+
+    def updatepi2Value(self, value, mnumber):
+        # update globalCounterValue
+        gcfDir = self.resultDir + os.sep + "bestpi2.txt"
+        gcv = str(value)
+        mnumber = str(mnumber)
+        gcFile = open(gcfDir, mode="wt", encoding="utf-8")
+        gcFile.write(gcv + " " + mnumber)
+        gcFile.close()
+
+        print("updated bestpi2 "+gcv+" "+mnumber)
+
+    def updatepi12Value(self, value, mnumber):
+        # update globalCounterValue
+        gcfDir = self.resultDir + os.sep + "bestpi12.txt"
+        gcv = str(value)
+        mnumber = str(mnumber)
+        gcFile = open(gcfDir, mode="wt", encoding="utf-8")
+        gcFile.write(gcv + " " + mnumber)
+        gcFile.close()
+
+        print("updated bestpi12 "+gcv+" "+mnumber)
+
     def findMax(self, solution: list, whatNeed: str, maxVal: str):
         """whatNeed is pi form for compare"""
-        box = maxVal
-        result = maxVal
+        result = ""
         for fline in solution:
             line = str(fline)
-            for point in whatNeed[len(result):]:
-                box += point
-                if len(result) < len(box) and box in line:
-                    result = box
-            box = result
+            if maxVal in line:
+                whatWant = whatNeed.split(maxVal, 1)[1]
+                for point in whatWant:
+                    if maxVal+point in line:
+                        maxVal += point
+                        result = maxVal
+                    else:
+                        result = maxVal
+                        break
         return result
