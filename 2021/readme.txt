@@ -29,4 +29,5 @@ or will fail output size etc after 500+ matrix, etc.
 
 next idea, possibly for 3d inside sphere, but sphere can be remastered from 2d  3 4 5 sphere primitives
 
-`using-python` folder is trying produce solid flow, without preparing before every partion of calculation.
+`using-python` folder is trying produce solid flow, without preparing before every partion of calculation.  
+Much slower than wxMaxima, and used option `check=False` for sympy solver. Matrix indices in flow python3 vs wxMaxima now looks different. But python code looks more clear.

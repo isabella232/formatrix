@@ -28,13 +28,18 @@ class MGAS:
         self.k = 5  # matrix size it should be square
         # turn on ignore some number indices from parameters flow f.e.: n1 n2 n4
         self.ignoriism = True
-        # which number/s of parameters indices will ignored 1...7 for my case
+        # which number/s of parameters indices will ignored
         self.iism0 = [5]
 
         # generated parameter indices from 2
         self.iism1 = 2
         # generated parameter indices to 7
-        self.iism2 = 7  # for circle case, because infinity haven't good int value
+        self.iism2 = 7
+
+        # generate matrices from 1
+        self.out1 = 1
+        # generate matrices to 3
+        self.out2 = 3
 
         self.mg = MG(
             self.input_n,
@@ -44,7 +49,7 @@ class MGAS:
             self.iism1,
             self.iism2
         )
-        self.globalLimit = self.mg.globalLimit
+        self.globalLimit = self.mg.summcount()
 
         self.ms = MS()
         self.mp = MP(self.mydir, self.k)
@@ -57,6 +62,9 @@ class MGAS:
         self.bestpi2 = self.mp.bestpi2Value()
         self.bestpi12 = self.mp.bestpi12Value()
 
+        self.calcSize = 1
+        """how much matrices will calculated before time sleep, must be < saveSize"""
+        self.sessionSize = 0
         """how much calculated at present moment and not printed"""
         self.globalCounter = self.mp.globalCounterValue()
 
@@ -64,13 +72,16 @@ class MGAS:
 
         self.globalCounter += 1
         calcChecker = self.globalCounter
-
+        self.out1 = self.globalCounter
+        self.out2 = self.globalCounter + self.calcSize - 1
         # calculation with pause between steps
         while calcChecker <= self.globalLimit:
             time.sleep(1)
 
             try:
-                mx = self.mg.generateMatrices(self.globalCounter)
+                mx = self.mg.generateMatrices(
+                    self.input_n, self.k, self.ignoriism, self.iism0, self.iism1, self.iism2, self.out1, self.out2
+                )
                 needprint = False
                 for m in mx:
                     solution = self.ms.solve_pi(m[1])
@@ -126,15 +137,19 @@ class MGAS:
             except:
                 print(sys.exc_info())
                 print("some fail with matrices " +
-                      str(self.globalCounter) + " range")
+                      str(self.out1)+" "+str(self.out2)+" range")
 
             if calcChecker == self.globalLimit:
                 break
-            else:
-                self.globalCounter += 1
+            elif self.globalCounter + self.calcSize > self.globalLimit:
+                self.calcSize = self.globalLimit - self.globalCounter
+
+            self.globalCounter += self.calcSize
+            self.out1 = self.globalCounter
+            self.out2 = self.globalCounter + self.calcSize - 1
+
         input("enter to close")
 
 
 mbox = MGAS(mydir)
-# mbox.mg.printMatrix(9)
 mbox.runAll()
