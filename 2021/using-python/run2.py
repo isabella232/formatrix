@@ -25,7 +25,7 @@ class MGAS:
         self.input_n = ["pi", "R", "S", "P", "PS", "N", "RN", "O", "C", "OC", "F", "A", "FA", "AC", "AS", "ACAS", "FAC", "RR", "SS", "PP", "PSPS", "NN", "RNRN", "OO", "CC", "OCOC", "FF", "AA", "FAFA",
                         "ACAC", "ASAS", "ACASACAS", "FACFAC", "NU", "XU", "XR", "o", "f", "r", "ac", "as", "Af", "Rr", "v", "NUNU", "XUXU", "XRXR", "oo", "ff", "rr", "acac", "asas", "AfAf", "RrRr", "vv"]
 
-        self.k = 5  # matrix size it should be square
+        self.k = 2  # matrix size it should be square
         # turn on ignore some number indices from parameters flow f.e.: n1 n2 n4
         self.ignoriism = True
         # which number/s of parameters indices will ignored 1...7 for my case

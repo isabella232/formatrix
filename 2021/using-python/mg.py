@@ -51,7 +51,6 @@ class MG:
         """number matrix data"""
         sdata = []
         """symbolic matrix data"""
-
         cindices, rindices = crIndices
         for rind in self.uniRowGroups[rindices]:
             mrow = []
@@ -70,8 +69,6 @@ class MG:
     def generateMatrixColsRowsNumericIndicesList(self, globalCounter: int):
         rind = int(globalCounter / self.colsNumber)
         cind = globalCounter % self.colsNumber
-        if cind > 0:
-            rind += 1
         return [cind, rind]
 
     def generateMatrices(self, globalCounter: int) -> list:
