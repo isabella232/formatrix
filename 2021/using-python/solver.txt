@@ -6,7 +6,7 @@ checking if no pi inside then use pure det
 import sympy as s
 
 for rind in range(M.rows)
-row = M.row(rind)
+row = M.row(rind)vi
 return list
 
 for item in row:
