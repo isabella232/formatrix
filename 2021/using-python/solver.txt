@@ -1,1 +1,16 @@
 solve(mdet, pi, check=False, rational=None)
+
+
+checking if no pi inside then use pure det
+
+import sympy as s
+
+for rind in range(M.rows)
+row = M.row(rind)
+return list
+
+for item in row:
+part = item.as_coeff_Mul()
+return tuple
+
+if s.pi in part: use solve(M.det(),s.pi) else: use pure det as solution
