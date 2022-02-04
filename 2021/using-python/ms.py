@@ -12,9 +12,16 @@ class MS:
             return True
         return False
 
-    def solve_pi(self, m) -> list:
+    def solve_pi(self, m:s.Matrix, solution:list, debug=False) -> list:
         mdet = m.det()
+        solution.append(None)
+
+        if debug:
+            print("debug mdet =\n",mdet)
+
         if self.pi_in_matrixDeterminant(mdet):
-            return s.solve(mdet, s.pi, check=False, rational=None)
-        # if no pi inside det then return det as solution, packed in list
-        return [mdet]
+            rez = s.solve(mdet, s.pi, check=False, rational=None)
+            for i in rez: solution.append(i)
+        else:
+            solution.append(mdet)
+        solution.pop(0)

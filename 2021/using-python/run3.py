@@ -2,6 +2,7 @@ from mg import MG
 from ms import MS
 from mp import MP
 
+import multiprocessing
 import time
 import sys
 import os
@@ -48,6 +49,7 @@ class MGAS:
 
         self.ms = MS()
         self.mp = MP(self.mydir, self.k)
+        self.mp.checkDirsNeeded()
 
         self.checkpi = str(math.pi)
         self.checkpi2 = str(math.pi**2)
@@ -73,54 +75,70 @@ class MGAS:
                 mx = self.mg.generateMatrices(self.globalCounter)
                 needprint = False
                 for m in mx:
-                    solution = self.ms.solve_pi(m[1])
-                    # pi check
-                    result = self.mp.findMax(
-                        solution, self.checkpi, self.bestpi[0])
-                    if (len(result) > len(self.bestpi[0])):
-                        self.bestpi = [result, str(m[0])]
-                        self.mp.refreshpiValue(result, m[0])
-                        needprint = True
-                    elif (len(result) == len(self.bestpi[0])):
-                        self.bestpi = [
-                            result, self.bestpi[1] + " " + str(m[0])]
-                        self.mp.updatepiValue(result, self.bestpi[1])
-                        needprint = True
 
-                    # pi2 check
-                    result = self.mp.findMax(
-                        solution, self.checkpi2, self.bestpi2[0])
-                    if (len(result) > len(self.bestpi2[0])):
-                        self.bestpi2 = [result, str(m[0])]
-                        self.mp.refreshpi2Value(result, m[0])
-                        needprint = True
-                    elif (len(result) == len(self.bestpi2[0])):
-                        self.bestpi2 = [
-                            result, self.bestpi2[1] + " " + str(m[0])]
-                        self.mp.updatepi2Value(result, self.bestpi2[1])
-                        needprint = True
+                    #trying prefiltering long operations was detected
+                    man = multiprocessing.Manager()
+                    solution = man.list()
+                    lp = multiprocessing.Process(
+                        target=self.ms.solve_pi,
+                        name="Foo",
+                        args=(m[1], solution, False))
+                    lp.start()
+                    lp.join(60)
 
-                    # pi12 check
-                    result = self.mp.findMax(
-                        solution, self.checkpi12, self.bestpi12[0])
-                    if (len(result) > len(self.bestpi12[0])):
-                        self.bestpi12 = [result, str(m[0])]
-                        self.mp.refreshpi12Value(result, m[0])
-                        needprint = True
-                    elif (len(result) == len(self.bestpi12[0])):
-                        self.bestpi12 = [
-                            result, self.bestpi12[1] + " " + str(m[0])]
-                        self.mp.updatepi12Value(result, self.bestpi12[1])
-                        needprint = True
+                    if (len(solution) >= 0 and solution[0]==None):
+                        print(m)
+                        #write matrix to special list/file in folder "bad"
+                        self.mp.printToFileLongCalculatedMatrices(m)
+                    else:
 
-                    # print to console screen
-                    if needprint:
-                        print(str(m[0])+" "+str(solution))
-                        print(str(m[2]))
-                        print(" -"*10)
-                        needprint = False
+                        # pi check
+                        result = self.mp.findMax(
+                            solution, self.checkpi, self.bestpi[0])
+                        if (len(result) > len(self.bestpi[0])):
+                            self.bestpi = [result, str(m[0])]
+                            self.mp.refreshpiValue(result, m[0])
+                            needprint = True
+                        elif (len(result) == len(self.bestpi[0])):
+                            self.bestpi = [
+                                result, self.bestpi[1] + " " + str(m[0])]
+                            self.mp.updatepiValue(result, self.bestpi[1])
+                            needprint = True
 
-                    calcChecker += 1
+                        # pi2 check
+                        result = self.mp.findMax(
+                            solution, self.checkpi2, self.bestpi2[0])
+                        if (len(result) > len(self.bestpi2[0])):
+                            self.bestpi2 = [result, str(m[0])]
+                            self.mp.refreshpi2Value(result, m[0])
+                            needprint = True
+                        elif (len(result) == len(self.bestpi2[0])):
+                            self.bestpi2 = [
+                                result, self.bestpi2[1] + " " + str(m[0])]
+                            self.mp.updatepi2Value(result, self.bestpi2[1])
+                            needprint = True
+
+                        # pi12 check
+                        result = self.mp.findMax(
+                            solution, self.checkpi12, self.bestpi12[0])
+                        if (len(result) > len(self.bestpi12[0])):
+                            self.bestpi12 = [result, str(m[0])]
+                            self.mp.refreshpi12Value(result, m[0])
+                            needprint = True
+                        elif (len(result) == len(self.bestpi12[0])):
+                            self.bestpi12 = [
+                                result, self.bestpi12[1] + " " + str(m[0])]
+                            self.mp.updatepi12Value(result, self.bestpi12[1])
+                            needprint = True
+
+                        # print to console screen
+                        if needprint:
+                            print(str(m[0])+" "+str(solution))
+                            print(str(m[2]))
+                            print(" -"*10)
+                            needprint = False
+
+                        calcChecker += 1
                 self.mp.refreshGlobalCounterValue(m[0])
 
             except:

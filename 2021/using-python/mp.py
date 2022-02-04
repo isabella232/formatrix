@@ -9,6 +9,16 @@ class MP:
         self.mydir = mydir
         self.resultDir = self.mydir + os.sep + "resultFolder"+str(k)+"x"+str(k)
         self.resultSubDir = self.resultDir + os.sep + "result"
+        self.resultBadDir = self.resultDir + os.sep + "bad"
+
+    def checkDirsNeeded(self):
+        # check if no previous completed inkrement of calculated matrices
+        if not os.path.exists(self.resultDir):
+            os.makedirs(self.resultDir)
+        if not os.path.exists(self.resultSubDir):
+            os.makedirs(self.resultSubDir)
+        if not os.path.exists(self.resultBadDir):
+            os.makedirs(self.resultBadDir)
 
     def printMatrix(self, m, solution):
         print("----"+str(m[0]))  # matrix number
@@ -46,14 +56,8 @@ class MP:
         gcFile.close()
 
     def globalCounterValue(self) -> int:
-        gcv = 0
-        gcfDir = self.resultDir + os.sep + "globalCounter.txt"
 
-        # check if no previous completed inkrement of calculated matrices
-        if not os.path.exists(self.resultDir):
-            os.makedirs(self.resultDir)
-        if not os.path.exists(self.resultSubDir):
-            os.makedirs(self.resultSubDir)
+        gcfDir = self.resultDir + os.sep + "globalCounter.txt"
 
         if not os.path.exists(gcfDir):
             gcFile = open(gcfDir, mode="wt", encoding="utf-8")
@@ -207,3 +211,22 @@ class MP:
                         result = maxVal
                         break
         return result
+
+    def printToFileLongCalculatedMatrices(self, m:list):
+        """
+        print matrices with long calculation,
+        not completed in time, to file for later continue
+        the process if possible
+        """
+        print("*"*33)
+        print("*long calculated matrix detected*")
+        print("*"*33)
+        fileName = str(m[0])+".txt"
+        rfDir = self.resultBadDir + os.sep + fileName
+        resultFile = open(rfDir, mode="wt", encoding="utf-8")
+        slines = []
+        for one in m:
+            sline = str(one)+"\n\n"
+            slines.append(sline)
+        resultFile.writelines(slines)
+        resultFile.close()

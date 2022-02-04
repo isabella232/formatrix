@@ -8,3 +8,8 @@ runfull.py print each group of results of matrices calculation in files.
 Trying to make python checker and printer fail, code very muddy, and just trunscoded from javascript html generator to be similar/comparable with wxmaxima stuff.
 
 2x2 completed
+
+3x3 completed
+
+now added 60 sec limit per matrix, because at last of 4x4, very long calc, more than 10 hours not enough, for some matrices
+
