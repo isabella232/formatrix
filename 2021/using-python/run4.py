@@ -84,10 +84,13 @@ class MGAS:
                         name="Foo",
                         args=(m[1], solution, False))
                     lp.start()
-                    lp.join(60)
+                    #timeout must be increased x2, 120 is 61(60 is 31) finally, strange
+                    lp.join(timeout=120)
+                    lp.terminate()
 
                     if (len(solution) >= 0 and solution[0]==None):
                         print(m)
+                        print("solution ",solution)
                         #write matrix to special list/file in folder "bad"
                         self.mp.printToFileLongCalculatedMatrices(m)
                     else:

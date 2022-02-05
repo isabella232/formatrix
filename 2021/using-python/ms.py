@@ -20,8 +20,8 @@ class MS:
             print("debug mdet =\n",mdet)
 
         if self.pi_in_matrixDeterminant(mdet):
-            rez = s.solve(mdet, s.pi, check=False, rational=None)
-            for i in rez: solution.append(i)
+            solution = s.solve(mdet, s.pi, check=False, rational=None)
+            # for i in rez: solution.append(i)
         else:
             solution.append(mdet)
-        solution.pop(0)
+            solution.pop(0)
